@@ -43,7 +43,8 @@ Router.get('/getById/:id', (req, res) => {
     if (isNaN(Number(id))) {
         res.status(404).send("That's not a number");
     } else {
-        const sql = `SELECT id, name, url_photo, description FROM pokemons WHERE id='${id}'`;
+        let _id = id.padStart(3, '0');
+        const sql = `SELECT name, url_photo FROM pokemons WHERE id='${_id}'`;
         conn.query(sql, (err, pokemon) => {
             if (err) throw err;
             if (pokemon.length !== 0) {
@@ -66,8 +67,9 @@ Router.get('/getByName/:name', fc.inputNameValid, (req, res) => {
 
     const sql = `
     SELECT ${_sql['id']},${_sql['n']},${_sql['t']},${_sql['s']['HP']},${_sql['s']['ATK']},
-    ${_sql['s']['DEF']},${_sql['s']['ATK_E']},${_sql['s']['DEF_E']},${_sql['u']},${_sql['d']} 
-    FROM pokemons INNER JOIN stadistics ON ${_sql['s']['pid']}=${_sql['id']} WHERE name='${name}'`;
+    ${_sql['s']['DEF']},${_sql['s']['ATK_E']},${_sql['s']['DEF_E']},${_sql['s']['SPEED']},
+    ${_sql['u']},${_sql['d']} FROM pokemons INNER JOIN stadistics ON ${_sql['s']['pid']}=
+    ${_sql['id']} WHERE name='${name}'`;
 
     conn.query(sql, (err, pokemon) => {
         if (err) throw err;
