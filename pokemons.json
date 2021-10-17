@@ -1,0 +1,75 @@
+{
+    "pokemons": [
+        {
+            "id": 1,
+            "name": "Bulbasaur",
+            "url_photo": "./images/bulbasaur.jpg",
+            "type": "Planta,Veneno",
+            "stadistics": {
+                "pokemon_id": 1,
+                "HP": 250,
+                "ATK": 80,
+                "DEF": 100,
+                "ATK_ESP": 150,
+                "DEF_ESP": 120
+            },
+            "description": "Pokemon Planta"
+        },{
+            "id": 2,
+            "name": "Charmander",
+            "url_photo": "./images/charmander.jpg",
+            "type": "Fuego",
+            "stadistics": {
+                "pokemon_id": 2,
+                "HP": 250,
+                "ATK": 80,
+                "DEF": 100,
+                "ATK_ESP": 150,
+                "DEF_ESP": 120
+            },
+            "description": "Pokemon Fuego"
+        },{
+            "id": 3,
+            "name": "Squirtle",
+            "url_photo": "./images/squirtle.jpg",
+            "type": "Agua",
+            "stadistics": {
+                "pokemon_id": 3,
+                "HP": 250,
+                "ATK": 80,
+                "DEF": 100,
+                "ATK_ESP": 150,
+                "DEF_ESP": 120
+            },
+            "description": "Pokemon Agua"
+        },{
+            "id": 4,
+            "name": "Caterpie",
+            "url_photo": "./images/caterpie.jpg",
+            "type": "Bicho,Veneno",
+            "stadistics": {
+                "pokemon_id": 4,
+                "HP": 250,
+                "ATK": 80,
+                "DEF": 100,
+                "ATK_ESP": 150,
+                "DEF_ESP": 120
+            },
+            "description": "Pokemon Bicho"
+        },{
+            "id": 5,
+            "name": "Pikachu",
+            "url_photo": "./images/pikachu.jpg",
+            "type": "Electricidad",
+            "stadistics": {
+                "pokemon_id": 5,
+                "HP": 250,
+                "ATK": 80,
+                "DEF": 100,
+                "ATK_ESP": 150,
+                "DEF_ESP": 120
+            },
+            "description": "Pokemon Electricidad"
+        }
+    ]
+}
