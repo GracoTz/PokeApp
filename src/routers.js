@@ -1,8 +1,8 @@
 const express = require('express');
 const Router = express.Router();
 const conn = require('./db').connection;
-const objP = require('./prototypes/poke_obj');
-const fc = require('./prototypes/functions');
+const objP = require('./libs/poke_obj');
+const fc = require('./libs/functions');
 const fs = require('fs');
 
 // Por aqui va a obtener todos los pokemones
