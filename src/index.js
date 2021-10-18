@@ -8,7 +8,7 @@ const app = express();
 // Middlewars
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('../public'));
+app.use(express.static('../../Frontend'));
 
 // Database
 db.connect((err) => {

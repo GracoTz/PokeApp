@@ -1,307 +1,305 @@
-
 {
     "pokemons": [
         {
             "id": "001",
             "name": "Bulbasaur",
-            "url-photo": "",
+            "url_photo": "./images/bulbasaur.jpg",
             "type": "Grass,Poison",
             "stadistics": {
                 "pokemon_id": "001" ,
                 "HP": 45 ,
                 "ATK":49 ,
                 "DEF": 49,
-                "ATK_SP": 65,
-                "DEF_SP": 65,
+                "ATK_ESP": 65,
+                "DEF_ESP": 65,
                 "SPEED":  45
             },
             "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soakingup the sun's rays, the seed grows progressively larger."
         },{
             "id": "002",
             "name": "Ivysaur",
-            "url-photo": "",
+            "url_photo": "./images/ivysaur.jpg",
             "type": "Grass,Poison",
             "stadistics": {
                 "pokemon_id": "002" ,
                 "HP": 60 ,
                 "ATK":62 ,
                 "DEF": 63,
-                "ATK_SP": 80,
-                "DEF_SP": 80,
+                "ATK_ESP": 80,
+                "DEF_ESP": 80,
                 "SPEED":  60
             },
             "description": "There is a bud on this Pokemon's back. To support its weight, Ivysaur's ,legs and trunk grow thick and strog. If it starts spendig more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon"
-        } , { 
+        },{ 
             "id": "003",
             "name": "Venusaur",
-            "url-photo": "",
+            "url_photo": "./images/venusaur.jpg",
             "type": "Grass,Poison",
             "stadistics": {
                "pokemon_id":"003",
                "HP": 80 ,
                "ATK":82 ,
                "DEF": 83,
-               "ATK_SP": 100,
-               "DEF_SP": 100,
+               "ATK_ESP": 100,
+               "DEF_ESP": 100,
                "SPEED":  80
             },
             "description": "There is a large flower on Venusaur'back. The flower is said to take on vivid colors if gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people"
-       } , { 
-        "id": "004",
-        "name": "Charmander",
-        "url-photo": "",
-        "type": "Fire",
-        "stadistics": {
-           "pokemon_id":"004",
-           "HP": 39 ,
-           "ATK": 52 ,
-           "DEF": 43,
-           "ATK_SP": 60,
-           "DEF_SP": 50,
-           "SPEED":  65
-    },
-    "description": "The flame that burns at the tip of its tail is an indication of its emotions.The flame wavers when Charmander is enjoying itself. If the Pokemon becomes enraged, the flame burns fiercely"
-    } , { 
-        "id": "005",
-        "name": "Charmeleon",
-        "url-photo": "",
-        "type": "Fire",
-        "stadistics": {
-           "pokemon_id":"005",
-           "HP": 58 ,
-           "ATK": 64 ,
-           "DEF": 58,
-           "ATK_SP": 80,
-           "DEF_SP": 65,
-           "SPEED":  80
-    },
-    "description": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this exited state, the flame at the tip of its tail flares whith a bluish white color."
-    } , { 
+       },{
+            "id": "004",
+            "name": "Charmander",
+            "url_photo": "./images/charmander.jpg",
+            "type": "Fire",
+            "stadistics": {
+                "pokemon_id":"004",
+                "HP": 39 ,
+                "ATK": 52 ,
+                "DEF": 43,
+                "ATK_ESP": 60,
+                "DEF_ESP": 50,
+                "SPEED":  65
+            },
+            "description": "The flame that burns at the tip of its tail is an indication of its emotions.The flame wavers when Charmander is enjoying itself. If the Pokemon becomes enraged, the flame burns fiercely"
+        },{ 
+            "id": "005",
+            "name": "Charmeleon",
+            "url_photo": "./images/charmeleon.jpg",
+            "type": "Fire",
+            "stadistics": {
+                "pokemon_id":"005",
+                "HP": 58 ,
+                "ATK": 64 ,
+                "DEF": 58,
+                "ATK_ESP": 80,
+                "DEF_ESP": 65,
+                "SPEED":  80
+            },
+            "description": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this exited state, the flame at the tip of its tail flares whith a bluish white color."
+        },{ 
         "id": "006",
         "name": "Charizard",
-        "url-photo": "",
+        "url_photo": "./images/charizard.jpg",
         "type": "Fire,Flying",
         "stadistics": {
            "pokemon_id":"006",
            "HP": 78 ,
            "ATK": 84 ,
            "DEF": 78,
-           "ATK_SP": 109,
-           "DEF_SP": 85,
+           "ATK_ESP": 109,
+           "DEF_ESP": 85,
            "SPEED":  100
     },
     "description": "Charizard flies around the sky in search of powerful oponents. It breathes fire of such great heat that it melts anything. However , it never turns its fiery breath on any opponet weaker thant itself."
     } , { 
         "id": "007",
         "name": "Squirtle",
-        "url-photo": "",
+        "url_photo": "./images/squirtle.jpg",
         "type": "Water",
         "stadistics": {
            "pokemon_id":"007",
            "HP": 44 ,
            "ATK": 48 ,
            "DEF": 65,
-           "ATK_SP": 50,
-           "DEF_SP": 64,
+           "ATK_ESP": 50,
+           "DEF_ESP": 64,
            "SPEED":  43
     },
     "description": "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokemon to swim at high speeds."
     } , { 
         "id": "008",
         "name": "Wartortle",
-        "url-photo": "",
+        "url_photo": "./images/wartortle.jpg",
         "type": "Water",
         "stadistics": {
            "pokemon_id":"008",
            "HP": 59 ,
            "ATK": 63 ,
            "DEF": 80,
-           "ATK_SP": 65,
-           "DEF_SP": 80,
+           "ATK_ESP": 65,
+           "DEF_ESP": 80,
            "SPEED":  58
     },
     "description": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this pokemon's toughness as a battler."
     } , { 
         "id": "009",
         "name": "Blastoise",
-        "url-photo": "",
+        "url_photo": "./images/blastoise.jpg",
         "type": "Water",
         "stadistics": {
            "pokemon_id":"009",
            "HP": 79 ,
            "ATK": 83 ,
            "DEF": 100,
-           "ATK_SP": 85,
-           "DEF_SP": 105,
+           "ATK_ESP": 85,
+           "DEF_ESP": 105,
            "SPEED":  78
     },
     "description": "Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water whith enough accuracy to strike empty cans from a distance of over 160 feet."
     } , { 
         "id": "010",
         "name": "Caterpie",
-        "url-photo": "",
+        "url_photo": "./images/caterpie.jpg",
         "type": "Bug",
         "stadistics": {
            "pokemon_id":"010",
            "HP": 45 ,
            "ATK": 30 ,
            "DEF": 35,
-           "ATK_SP": 20,
-           "DEF_SP": 20,
+           "ATK_ESP": 20,
+           "DEF_ESP": 20,
            "SPEED":  45
     },
     "description": "Its body is soft and weak. In nature, its perpetual fate is to be seen by others as food."
     } , { 
         "id": "011",
         "name": "Metapod",
-        "url-photo": "",
+        "url_photo": "./images/metapod.jpg",
         "type": "Bug",
         "stadistics": {
            "pokemon_id":"011",
            "HP": 50 ,
            "ATK": 20 ,
            "DEF": 55,
-           "ATK_SP": 25,
-           "DEF_SP": 25,
+           "ATK_ESP": 25,
+           "DEF_ESP": 25,
            "SPEED":  30
     },
     "description": "Its hard shell doesn't crack a bit even if Pikipek pecks at it, but it will tip over, splilling out its insides."
     } , { 
         "id": "012",
         "name": "Butterfree",
-        "url-photo": "",
+        "url_photo": "./images/butterfree.jpg",
         "type": "Bug,Flying",
         "stadistics": {
            "pokemon_id":"012",
            "HP": 60 ,
            "ATK": 45 ,
            "DEF": 50,
-           "ATK_SP": 90,
-           "DEF_SP": 80,
+           "ATK_ESP": 90,
+           "DEF_ESP": 80,
            "SPEED":  70
     },
     "description": "Nectar from pretty flowers is its favorite food. In fields of flowers, it has heated battles with Cutiefly for territory."
     } , { 
         "id": "013",
         "name": "Weedle",
-        "url-photo": "",
+        "url_photo": "./images/weedle.jpg",
         "type": "Bug,Poison",
         "stadistics": {
            "pokemon_id":"013",
            "HP": 40 ,
            "ATK": 35 ,
            "DEF": 30,
-           "ATK_SP": 20,
-           "DEF_SP": 20,
+           "ATK_ESP": 20,
+           "DEF_ESP": 20,
            "SPEED":  50
     },
     "description": "Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis(nose)."
     } , { 
         "id": "014",
         "name": "Kakuna",
-        "url-photo": "",
+        "url_photo": "./images/kakuna.jpg",
         "type": "Bug,Poison",
         "stadistics": {
            "pokemon_id":"014",
            "HP": 45 ,
            "ATK": 50 ,
            "DEF": 30,
-           "ATK_SP": 25,
-           "DEF_SP": 25,
+           "ATK_ESP": 25,
+           "DEF_ESP": 25,
            "SPEED":  35
     },
     "description": "Kakuna temains virtually inmobile as it clings to a tree. However, on the inside, it is extrenely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch."
     } , { 
         "id": "015",
         "name": "Beedrill",
-        "url-photo": "",
+        "url_photo": "./images/beedrill.jpg",
         "type": "Bug,Poison",
         "stadistics": {
            "pokemon_id":"015",
            "HP": 65 ,
            "ATK": 90 ,
            "DEF": 40,
-           "ATK_SP": 45,
-           "DEF_SP": 80,
+           "ATK_ESP": 45,
+           "DEF_ESP": 80,
            "SPEED":  75
     },
     "description": "Beedrill is extremely territorial. No one should ever approach its nest this is for their own safety. If angered, they will attack in a furious swarm."
     } , { 
         "id": "016",
         "name": "Pidgey",
-        "url-photo": "",
+        "url_photo": "./images/pidgey.jpg",
         "type": "Normal,Flying",
         "stadistics": {
            "pokemon_id":"016",
            "HP": 40 ,
            "ATK": 45 ,
            "DEF": 40,
-           "ATK_SP": 35,
-           "DEF_SP": 35,
+           "ATK_ESP": 35,
+           "DEF_ESP": 35,
            "SPEED":  56
     },
     "description": "Pidgey has an extremely sharp sense of direction. It is capable of unerringly returnig home to its nest, however far it may be removed from its familiar surroundings."
     } , { 
         "id": "017",
         "name": "Pidgeotto",
-        "url-photo": "",
+        "url_photo": "./images/pidgeotto.jpg",
         "type": "Normal,Flying",
         "stadistics": {
            "pokemon_id":"017",
            "HP": 63 ,
            "ATK": 60 ,
            "DEF": 55,
-           "ATK_SP": 50,
-           "DEF_SP": 50,
+           "ATK_ESP": 50,
+           "DEF_ESP": 50,
            "SPEED":  71
     },
     "description": "Pidgeotto claims a large area as its own territor. This pokemon flies around, patrolling its living space. If its territory is violated, it shows no merce in thoroughly punishing the foe with its sharp claws."
     } , { 
         "id": "018",
         "name": "Pidgeot",
-        "url-photo": "",
+        "url_photo": "./images/pidgeot.jpg",
         "type": "Normal,Flying",
         "stadistics": {
            "pokemon_id":"018",
            "HP": 83 ,
            "ATK": 80 ,
            "DEF": 75,
-           "ATK_SP": 70,
-           "DEF_SP": 70,
+           "ATK_ESP": 70,
+           "DEF_ESP": 70,
            "SPEED":  101
     },
     "description": "This Pokemon has a dazzling plumage of beautifully glossy feathers. Many trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokemon."
     } , { 
         "id": "019",
         "name": "Rattata",
-        "url-photo": "",
+        "url_photo": "./images/rattata.jpg",
         "type": "Normal",
         "stadistics": {
            "pokemon_id":"019",
            "HP": 30 ,
            "ATK": 56 ,
            "DEF": 35,
-           "ATK_SP": 25,
-           "DEF_SP": 35,
+           "ATK_ESP": 25,
+           "DEF_ESP": 35,
            "SPEED":  72
     },
     "description": "This pokemon is common but hazardous. Its sharp incisors can easily cut right through hard wood."
     } , { 
         "id": "020",
         "name": "Raticate",
-        "url-photo": "",
+        "url_photo": "./images/raticate.jpg",
         "type": "Normal",
         "stadistics": {
            "pokemon_id":"020",
            "HP": 55 ,
            "ATK": 81 ,
            "DEF": 60,
-           "ATK_SP": 50,
-           "DEF_SP": 70,
+           "ATK_ESP": 50,
+           "DEF_ESP": 70,
            "SPEED":  97
     },
     "description": "Its whiskers are essential for maintaining its balance. No matter how friendly you are, it will get angry and bite you if you touch its whiskers."
     }                                                                                                                                                        
   ] 
-} 
- 
+}

@@ -106,8 +106,8 @@ Router.get('/add-pokemons', (req, res) => {
     fs.readFile('../pokemons.json', 'utf-8', (err, file) => {
         let json = JSON.parse(file);
         let pokemons = json.pokemons;
-        let pokemon_data = {id: 0, name: "", type: "", url_photo: "", description: ""};
-        let stadistics_data = {pokemon_id: 0 ,HP: 0, ATK: 0, DEF: 0, ATK_ESP: 0, DEF_ESP: 0, SPEED: 0};
+        let pokemon_data = {id: "", name: "", type: "", url_photo: "", description: ""};
+        let stadistics_data = {pokemon_id: "" ,HP: 0, ATK: 0, DEF: 0, ATK_ESP: 0, DEF_ESP: 0, SPEED: 0};
         let sqlP = 'INSERT INTO pokemons SET ?';
         let sqlS = 'INSERT INTO stadistics SET ?';
 
