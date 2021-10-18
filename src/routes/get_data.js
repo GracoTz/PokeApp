@@ -40,7 +40,7 @@ Router.get('/get-all', (req, res) => {
 Router.get('/getById/:id', (req, res) => {
     const { id } = req.params;
     if (isNaN(Number(id))) {
-        res.status(404).send("That's not a number");
+        res.status(200).json({message: "That's not a number"});
     } else {
         let _id = id.padStart(3, '0');
         const sql = `SELECT name, url_photo FROM pokemons WHERE id='${_id}'`;
@@ -49,7 +49,7 @@ Router.get('/getById/:id', (req, res) => {
             if (pokemon.length !== 0) {
                 res.status(200).json(pokemon[0]);
             } else {
-                res.status(200).send('That id is dont exists');
+                res.status(200).json({message: `The pokemon ${_id} isn't exists`});
             }
         });
     }
@@ -76,7 +76,7 @@ Router.get('/getByName/:name', fc.inputNameValid, (req, res) => {
         pokemon = pokemon[0];
 
         if (pokemon === undefined) {
-            res.status(404).send('This pokemon is dont exists');
+            res.status(200).json({message: 'That pokemon is dont exists'});
         } else {
             for (const key in pokeResult) {
                 if (key === "stadistics") {
