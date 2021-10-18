@@ -13,8 +13,7 @@ const _sql = {
         DEF_E: "stadistics.DEF_ESP",
         SPEED: "stadistics.SPEED"
     },
-    u: "pokemons.url_photo",
-    d: "pokemons.description"
+    u: "pokemons.url_photo"
 };
 
 const pokemon = {

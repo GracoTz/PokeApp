@@ -18,7 +18,7 @@ db.connect((err) => {
 
 // Routers
 app.use(require('./routes/get_data'));
-app.use(require('./routes/add'));
+app.use(require('./add'));
 
 // Server
 app.listen(PORT, HOST, () => {
