@@ -3,7 +3,7 @@
         {
             "id": "001",
             "name": "Bulbasaur",
-            "url_photo": "./images/bulbasaur.jpg",
+            "url_photo": "bulbasaur.jpg",
             "type": "Grass,Poison",
             "stadistics": {
                 "pokemon_id": "001" ,
@@ -18,7 +18,7 @@
         },{
             "id": "002",
             "name": "Ivysaur",
-            "url_photo": "./images/ivysaur.jpg",
+            "url_photo": "ivysaur.jpg",
             "type": "Grass,Poison",
             "stadistics": {
                 "pokemon_id": "002" ,
@@ -33,7 +33,7 @@
         },{ 
             "id": "003",
             "name": "Venusaur",
-            "url_photo": "./images/venusaur.jpg",
+            "url_photo": "venusaur.jpg",
             "type": "Grass,Poison",
             "stadistics": {
                "pokemon_id":"003",
@@ -48,7 +48,7 @@
        },{
             "id": "004",
             "name": "Charmander",
-            "url_photo": "./images/charmander.jpg",
+            "url_photo": "charmander.jpg",
             "type": "Fire",
             "stadistics": {
                 "pokemon_id":"004",
@@ -63,7 +63,7 @@
         },{ 
             "id": "005",
             "name": "Charmeleon",
-            "url_photo": "./images/charmeleon.jpg",
+            "url_photo": "charmeleon.jpg",
             "type": "Fire",
             "stadistics": {
                 "pokemon_id":"005",
@@ -78,7 +78,7 @@
         },{ 
         "id": "006",
         "name": "Charizard",
-        "url_photo": "./images/charizard.jpg",
+        "url_photo": "charizard.jpg",
         "type": "Fire,Flying",
         "stadistics": {
            "pokemon_id":"006",
@@ -93,7 +93,7 @@
     } , { 
         "id": "007",
         "name": "Squirtle",
-        "url_photo": "./images/squirtle.jpg",
+        "url_photo": "squirtle.jpg",
         "type": "Water",
         "stadistics": {
            "pokemon_id":"007",
@@ -108,7 +108,7 @@
     } , { 
         "id": "008",
         "name": "Wartortle",
-        "url_photo": "./images/wartortle.jpg",
+        "url_photo": "wartortle.jpg",
         "type": "Water",
         "stadistics": {
            "pokemon_id":"008",
@@ -123,7 +123,7 @@
     } , { 
         "id": "009",
         "name": "Blastoise",
-        "url_photo": "./images/blastoise.jpg",
+        "url_photo": "blastoise.jpg",
         "type": "Water",
         "stadistics": {
            "pokemon_id":"009",
@@ -138,7 +138,7 @@
     } , { 
         "id": "010",
         "name": "Caterpie",
-        "url_photo": "./images/caterpie.jpg",
+        "url_photo": "caterpie.jpg",
         "type": "Bug",
         "stadistics": {
            "pokemon_id":"010",
@@ -153,7 +153,7 @@
     } , { 
         "id": "011",
         "name": "Metapod",
-        "url_photo": "./images/metapod.jpg",
+        "url_photo": "metapod.jpg",
         "type": "Bug",
         "stadistics": {
            "pokemon_id":"011",
@@ -168,7 +168,7 @@
     } , { 
         "id": "012",
         "name": "Butterfree",
-        "url_photo": "./images/butterfree.jpg",
+        "url_photo": "butterfree.jpg",
         "type": "Bug,Flying",
         "stadistics": {
            "pokemon_id":"012",
@@ -183,7 +183,7 @@
     } , { 
         "id": "013",
         "name": "Weedle",
-        "url_photo": "./images/weedle.jpg",
+        "url_photo": "weedle.jpg",
         "type": "Bug,Poison",
         "stadistics": {
            "pokemon_id":"013",
@@ -198,7 +198,7 @@
     } , { 
         "id": "014",
         "name": "Kakuna",
-        "url_photo": "./images/kakuna.jpg",
+        "url_photo": "kakuna.jpg",
         "type": "Bug,Poison",
         "stadistics": {
            "pokemon_id":"014",
@@ -213,7 +213,7 @@
     } , { 
         "id": "015",
         "name": "Beedrill",
-        "url_photo": "./images/beedrill.jpg",
+        "url_photo": "beedrill.jpg",
         "type": "Bug,Poison",
         "stadistics": {
            "pokemon_id":"015",
@@ -228,7 +228,7 @@
     } , { 
         "id": "016",
         "name": "Pidgey",
-        "url_photo": "./images/pidgey.jpg",
+        "url_photo": "pidgey.jpg",
         "type": "Normal,Flying",
         "stadistics": {
            "pokemon_id":"016",
@@ -243,7 +243,7 @@
     } , { 
         "id": "017",
         "name": "Pidgeotto",
-        "url_photo": "./images/pidgeotto.jpg",
+        "url_photo": "pidgeotto.jpg",
         "type": "Normal,Flying",
         "stadistics": {
            "pokemon_id":"017",
@@ -258,7 +258,7 @@
     } , { 
         "id": "018",
         "name": "Pidgeot",
-        "url_photo": "./images/pidgeot.jpg",
+        "url_photo": "pidgeot.jpg",
         "type": "Normal,Flying",
         "stadistics": {
            "pokemon_id":"018",
@@ -273,7 +273,7 @@
     } , { 
         "id": "019",
         "name": "Rattata",
-        "url_photo": "./images/rattata.jpg",
+        "url_photo": "rattata.jpg",
         "type": "Normal",
         "stadistics": {
            "pokemon_id":"019",
@@ -288,7 +288,7 @@
     } , { 
         "id": "020",
         "name": "Raticate",
-        "url_photo": "./images/raticate.jpg",
+        "url_photo": "raticate.jpg",
         "type": "Normal",
         "stadistics": {
            "pokemon_id":"020",
