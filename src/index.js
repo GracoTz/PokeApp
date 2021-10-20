@@ -18,6 +18,7 @@ db.connect((err) => {
 
 // Routers
 app.use(require('./routes/get_data'));
+app.use(require('./routes/favorites'));
 app.use(require('./add'));
 
 // Server
