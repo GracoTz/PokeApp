@@ -6,7 +6,6 @@ const pokemon = {
     Photo: "",
     Description: "",
     Stadistics: {
-        pokemon_id: "",
         HP: 0,
         ATK: 0,
         DEF: 0,
@@ -15,14 +14,12 @@ const pokemon = {
         SPEED: 0
     },
     Basic_Info: {
-        pokemon_id: "",
         Species: "",
         Height: "",
         Weight: "",
         Abilities: ""
     },
     Evolutions: {
-        pokemon_id: "",
         Have_Evolutions: 0,
         Evolutions: "",
         How_Progress: ""
