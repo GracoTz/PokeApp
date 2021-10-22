@@ -6,7 +6,7 @@ Router.get('/', (req, res) => {
 });
 
 Router.get('/pokemons', (req, res) => {
-    res.redirect('/Pokemons');
+    res.redirect('/pokemons');
 });
 
 Router.get('/favorites', (req, res) => {
