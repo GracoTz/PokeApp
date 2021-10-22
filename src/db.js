@@ -4,7 +4,7 @@ const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
-    database: 'api_pokemon'
+    database: 'pokemon'
 });
 
 const query = async (sql, values) => {
