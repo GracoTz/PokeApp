@@ -8,7 +8,7 @@ const app = express();
 // Middlewars
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('../../Frontend'));
+app.use(express.static('../public'));
 
 // Database
 db.connect((err) => {
@@ -17,9 +17,10 @@ db.connect((err) => {
 });
 
 // Routers
+app.use(require('./routes/renders'));
 app.use(require('./routes/get_data'));
 app.use(require('./routes/favorites'));
-app.use(require('./add'));
+app.use(require('./routes/add'));
 
 // Server
 app.listen(PORT, HOST, () => {
