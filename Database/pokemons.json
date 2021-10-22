@@ -1,0 +1,1305 @@
+{
+	"pokemons" : [
+		{
+			"id": "001",
+			"Name": "Bulbasaur",
+			"Types": "Grass,Poison",
+			"Favorite": 0,
+			"Photo": "Bulbasaur.gif",
+			"Description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soakingup the sun's rays, the seed grows progressively larger.",
+			"Stadistics": {
+				"HP": 45,
+				"ATK": 49,
+				"DEF": 49,
+				"ATK_SP": 65,
+				"DEF_SP": 65,
+				"SPEED": 45
+			},
+			"Basic_Info": {
+				"Species": "Seed Pokemon",
+				"Height": "0.7m",
+				"Weight": "6.9kg",
+				"Abilities": "Overgrow, Chlorophyll (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "002,003",
+				"How_Progress": "Level 16,Level 32"
+			}
+		},{
+			"id": "002",
+			"Name": "Ivysaur",
+			"Types": "Grass,Poison",
+			"Favorite": 0,
+			"Photo": "Ivysaur.gif",
+			"Description": "There is a bud on this Pokemon's back. To support its weight, Ivysaur's ,legs and trunk grow thick and strog. If it starts spendig more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.",
+			"Stadistics": {
+				"HP": 60,
+				"ATK": 62,
+				"DEF": 63,
+				"ATK_SP": 80,
+				"DEF_SP": 80,
+				"SPEED": 60
+			},
+			"Basic_Info": {
+				"Species": "Seed Pokemon",
+				"Height": "1.0m",
+				"Weight": "13.0kg",
+				"Abilities": "Overgrow, Chlorophyll (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "001,003",
+				"How_Progress": "Basic Form,Level 32"
+			}
+		},{
+			"id": "003",
+			"Name": "Venusaur",
+			"Types": "Grass,Poison",
+			"Favorite": 0,
+			"Photo": "Venusaur.gif",
+			"Description": "There is a large flower on Venusaur'back. The flower is said to take on vivid colors if gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
+			"Stadistics": {
+				"HP": 80,
+				"ATK": 82,
+				"DEF": 83,
+				"ATK_SP": 100,
+				"DEF_SP": 100,
+				"SPEED": 80
+			},
+			"Basic_Info": {
+				"Species": "Seed Pokemon",
+				"Height": "2.0m",
+				"Weight": "100.0kg",
+				"Abilities": "Overgrow, Chlorophyll (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "001,002",
+				"How_Progress": "Basic Form,Level 16"
+			}
+		},{
+			"id": "004",
+			"Name": "Charmander",
+			"Types": "Fire",
+			"Favorite": 0,
+			"Photo": "Charmander.gif",
+			"Description": "The flame that burns at the tip of its tail is an indication of its emotions.The flame wavers when Charmander is enjoying itself. If the Pokemon becomes enraged, the flame burns fiercely.",
+			"Stadistics": {
+				"HP": 39,
+				"ATK": 52,
+				"DEF": 43,
+				"ATK_SP": 60,
+				"DEF_SP": 50,
+				"SPEED": 65
+			},
+			"Basic_Info": {
+				"Species": "Lizard Pokemon",
+				"Height": "0.6m",
+				"Weight": "8.5kg",
+				"Abilities": "Blaze, Solar Power (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "005,006",
+				"How_Progress": "Level 16,Level 36"
+			}
+		},{
+			"id": "005",
+			"Name": "Charmeleon",
+			"Types": "Fire",
+			"Favorite": 0,
+			"Photo": "Charmeleon.gif",
+			"Description": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this exited state, the flame at the tip of its tail flares whith a bluish white color.",
+			"Stadistics": {
+				"HP": 58,
+				"ATK": 64,
+				"DEF": 58,
+				"ATK_SP": 80,
+				"DEF_SP": 65,
+				"SPEED": 80
+			},
+			"Basic_Info": {
+				"Species": "Flame Pokemon",
+				"Height": "1.1m",
+				"Weight": "19.0kg",
+				"Abilities": "Blaze, Solar Power (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "004,006",
+				"How_Progress": "Basic Form,Level 36"
+			}
+		},{
+			"id": "006",
+			"Name": "Charizard",
+			"Types": "Fire,Flying",
+			"Favorite": 1,
+			"Photo": "Charizard.gif",
+			"Description": "Charizard flies around the sky in search of powerful oponents. It breathes fire of such great heat that it melts anything. However , it never turns its fiery breath on any opponet weaker thant itself.",
+			"Stadistics": {
+				"HP": 78,
+				"ATK": 84,
+				"DEF": 78,
+				"ATK_SP": 109,
+				"DEF_SP": 85,
+				"SPEED": 100
+			},
+			"Basic_Info": {
+				"Species": "Flame Pokemon",
+				"Height": "1.7m",
+				"Weight": "90.5kg",
+				"Abilities": "Blaze, Solar Power (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "004,005",
+				"How_Progress": "Basic Form,Level 16"
+			}
+		},{
+			"id": "007",
+			"Name": "Squirtle",
+			"Types": "Water",
+			"Favorite": 0,
+			"Photo": "Squirtle.gif",
+			"Description": "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokemon to swim at high speeds.",
+			"Stadistics": {
+				"HP": 44,
+				"ATK": 48,
+				"DEF": 65,
+				"ATK_SP": 50,
+				"DEF_SP": 64,
+				"SPEED": 43
+			},
+			"Basic_Info": {
+				"Species": "Tiny Turtle Pokemon",
+				"Height": "0.5m",
+				"Weight": "9.0kg",
+				"Abilities": "Torrent, Rain Dish (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "008,009",
+				"How_Progress": "Level 16,Level 36"
+			}
+		},{
+			"id": "008",
+			"Name": "Wartortle",
+			"Types": "Water",
+			"Favorite": 0,
+			"Photo": "Wartortle.gif",
+			"Description": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this pokemon's toughness as a battler.",
+			"Stadistics": {
+				"HP": 59,
+				"ATK": 63,
+				"DEF": 80,
+				"ATK_SP": 65,
+				"DEF_SP": 80,
+				"SPEED": 58
+			},
+			"Basic_Info": {
+				"Species": "Turtle Pokemon",
+				"Height": "1.0m",
+				"Weight": "22.5kg",
+				"Abilities": "Torrent, Rain Dish (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "007,009",
+				"How_Progress": "Basic Form,Level 36"
+			}
+		},{
+			"id": "009",
+			"Name": "Blastoise",
+			"Types": "Water",
+			"Favorite": 0,
+			"Photo": "Blastoise.gif",
+			"Description": "Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water whith enough accuracy to strike empty cans from a distance of over 160 feet.",
+			"Stadistics": {
+				"HP": 79,
+				"ATK": 83,
+				"DEF": 100,
+				"ATK_SP": 85,
+				"DEF_SP": 105,
+				"SPEED": 78
+			},
+			"Basic_Info": {
+				"Species": "Shellfish Pokemon",
+				"Height": "1.6m",
+				"Weight": "85.5kg",
+				"Abilities": "Torrent, Rain Dish (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "007,008",
+				"How_Progress": "Basic Form,Level 16"
+			}
+		},{
+			"id": "010",
+			"Name": "Caterpie",
+			"Types": "Bug",
+			"Favorite": 0,
+			"Photo": "Caterpie.gif",
+			"Description": "Its body is soft and weak. In nature, its perpetual fate is to be seen by others as food.",
+			"Stadistics": {
+				"HP": 45,
+				"ATK": 30,
+				"DEF": 35,
+				"ATK_SP": 20,
+				"DEF_SP": 20,
+				"SPEED": 45
+			},
+			"Basic_Info": {
+				"Species": "Worm Pokemon",
+				"Height": "0.3m",
+				"Weight": "2.9kg",
+				"Abilities": "Shield Dust, Run Away (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "011,012",
+				"How_Progress": "Level 7,Level 10"
+			}
+		},{
+			"id": "011",
+			"Name": "Metapod",
+			"Types": "Bug",
+			"Favorite": 0,
+			"Photo": "Metapod.gif",
+			"Description": "Its hard shell doesn't crack a bit even if Pikipek pecks at it, but it will tip over, splilling out its insides.",
+			"Stadistics": {
+				"HP": 50,
+				"ATK": 20,
+				"DEF": 55,
+				"ATK_SP": 25,
+				"DEF_SP": 25,
+				"SPEED": 30
+			},
+			"Basic_Info": {
+				"Species": "Cocoon Pokemon",
+				"Height": "0.7m",
+				"Weight": "9.9kg",
+				"Abilities": "Shed Skin"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "010,012",
+				"How_Progress": "Basic Form,Level 10"
+			}
+		},{
+			"id": "012",
+			"Name": "Butterfree",
+			"Types": "Bug,Flying",
+			"Favorite": 0,
+			"Photo": "Butterfree.gif",
+			"Description": "Nectar from pretty flowers is its favorite food. In fields of flowers, it has heated battles with Cutiefly for territory.",
+			"Stadistics": {
+				"HP": 60,
+				"ATK": 45,
+				"DEF": 50,
+				"ATK_SP": 90,
+				"DEF_SP": 80,
+				"SPEED": 70
+			},
+			"Basic_Info": {
+				"Species": "Butterfly Pokemon",
+				"Height": "1.1m",
+				"Weight": "32.0kg",
+				"Abilities": "Compound Eyes, Tinted Lens (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "010,011",
+				"How_Progress": "Basic Form,Level 7"
+			}
+		},{
+			"id": "013",
+			"Name": "Weedle",
+			"Types": "Bug,Poison",
+			"Favorite": 0,
+			"Photo": "Weedle.gif",
+			"Description": "Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis(nose).",
+			"Stadistics": {
+				"HP": 40,
+				"ATK": 35,
+				"DEF": 30,
+				"ATK_SP": 20,
+				"DEF_SP": 20,
+				"SPEED": 50
+			},
+			"Basic_Info": {
+				"Species": "Hairy Bug Pokemon",
+				"Height": "0.3m",
+				"Weight": "3.2kg",
+				"Abilities": "Shield Dust, Run Away (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "014,015",
+				"How_Progress": "Level 7,Level 10"
+			}
+		},{
+			"id": "014",
+			"Name": "Kakuna",
+			"Types": "Bug,Poison",
+			"Favorite": 0,
+			"Photo": "Kakuna.gif",
+			"Description": "Kakuna temains virtually inmobile as it clings to a tree. However, on the inside, it is extrenely busy as it prepares for its coming Evolutions. This is evident from how hot the shell becomes to the touch.",
+			"Stadistics": {
+				"HP": 45,
+				"ATK": 25,
+				"DEF": 50,
+				"ATK_SP": 25,
+				"DEF_SP": 25,
+				"SPEED": 35
+			},
+			"Basic_Info": {
+				"Species": "Cocoon Pokemon",
+				"Height": "0.6m",
+				"Weight": "10.0kg",
+				"Abilities": "Shed Skin"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "013,015",
+				"How_Progress": "Basic Form,Level 10"
+			}
+		},{
+			"id": "015",
+			"Name": "Beedrill",
+			"Types": "Bug,Poison",
+			"Favorite": 0,
+			"Photo": "Beedrill.gif",
+			"Description": "Beedrill is extremely territorial. No one should ever approach its nest this is for their own safety. If angered, they will attack in a furious swarm.",
+			"Stadistics": {
+				"HP": 65,
+				"ATK": 90,
+				"DEF": 40,
+				"ATK_SP": 45,
+				"DEF_SP": 80,
+				"SPEED": 75
+			},
+			"Basic_Info": {
+				"Species": "Poison Bee Pokemon",
+				"Height": "1.0m",
+				"Weight": "29.5kg",
+				"Abilities": "Swarm, Sniper (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "013,014",
+				"How_Progress": "Basic Form,Level 7"
+			}
+		},{
+			"id": "016",
+			"Name": "Pidgey",
+			"Types": "Normal,Flying",
+			"Favorite": 0,
+			"Photo": "Pidgey.gif",
+			"Description": "Pidgey has an extremely sharp sense of direction. It is capable of unerringly returnig home to its nest, however far it may be removed from its familiar surroundings.",
+			"Stadistics": {
+				"HP": 40,
+				"ATK": 45,
+				"DEF": 40,
+				"ATK_SP": 35,
+				"DEF_SP": 35,
+				"SPEED": 56
+			},
+			"Basic_Info": {
+				"Species": "Tiny Bird Pokemon",
+				"Height": "0.3m",
+				"Weight": "1.8kg",
+				"Abilities": "Keen Eye, Tangled Feet, Big Pecks (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "017,018",
+				"How_Progress": "Level 18,Level 36"
+			}
+		},{
+			"id": "017",
+			"Name": "Pidgeotto",
+			"Types": "Normal,Flying",
+			"Favorite": 0,
+			"Photo": "Pidgeotto.gif",
+			"Description": "Pidgeotto claims a large area as its own territor. This pokemon flies around, patrolling its living space. If its territory is violated, it shows no merce in thoroughly punishing the foe with its sharp claws.",
+			"Stadistics": {
+				"HP": 63,
+				"ATK": 60,
+				"DEF": 55,
+				"ATK_SP": 50,
+				"DEF_SP": 50,
+				"SPEED": 71
+			},
+			"Basic_Info": {
+				"Species": "Bird Pokemon",
+				"Height": "1.1m",
+				"Weight": "30.0kg",
+				"Abilities": "Keen Eye, Tangled Feet, Big Pecks (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "016,018",
+				"How_Progress": "Basic Form,Level 36"
+			}
+		},{
+			"id": "018",
+			"Name": "Pidgeot",
+			"Types": "Normal,Flying",
+			"Favorite": 0,
+			"Photo": "Pidgeot.gif",
+			"Description": "This Pokemon has a dazzling plumage of beautifully glossy feathers. Many trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokemon.",
+			"Stadistics": {
+				"HP": 83,
+				"ATK": 80,
+				"DEF": 75,
+				"ATK_SP": 70,
+				"DEF_SP": 70,
+				"SPEED": 101
+			},
+			"Basic_Info": {
+				"Species": "Bird Pokemon",
+				"Height": "1.5m",
+				"Weight": "39.5kg",
+				"Abilities": "Keen Eye, Tangled Feet, Big Pecks (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "016,017",
+				"How_Progress": "Basic Form,Level 18"
+			}
+		},{
+			"id": "019",
+			"Name": "Rattata",
+			"Types": "Normal",
+			"Favorite": 0,
+			"Photo": "Rattata.gif",
+			"Description": "This pokemon is common but hazardous. Its sharp incisors can easily cut right through hard wood.",
+			"Stadistics": {
+				"HP": 30,
+				"ATK": 56,
+				"DEF": 35,
+				"ATK_SP": 25,
+				"DEF_SP": 35,
+				"SPEED": 72
+			},
+			"Basic_Info": {
+				"Species": "Mouse Pokemon",
+				"Height": "0.3m",
+				"Weight": "3.5kg",
+				"Abilities": "Run Away, Guts, Hustle (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "020",
+				"How_Progress": "Level 20"
+			}
+		},{
+			"id": "020",
+			"Name": "Raticate",
+			"Types": "Normal",
+			"Favorite": 0,
+			"Photo": "Raticate.gif",
+			"Description": "Its whiskers are essential for maintaining its balance. No matter how friendly you are, it will get angry and bite you if you touch its whiskers.",
+			"Stadistics": {
+				"HP": 55,
+				"ATK": 81,
+				"DEF": 60,
+				"ATK_SP": 50,
+				"DEF_SP": 70,
+				"SPEED": 97
+			},
+			"Basic_Info": {
+				"Species": "Mouse Pokemon",
+				"Height": "0.7m",
+				"Weight": "18.5kg",
+				"Abilities": "Run Away, Guts, Hustle (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "019",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "021",
+			"Name": "Spearow",
+			"Types": "Normal,Flying",
+			"Favorite": 0,
+			"Photo": "Spearow.gif",
+			"Description": "Due to its short wings,it can't fly long distances. It wanders about restlessly and pecks at bug Pokemon.",
+			"Stadistics": {
+				"HP": 40,
+				"ATK": 60,
+				"DEF": 30,
+				"ATK_SP": 31,
+				"DEF_SP": 31,
+				"SPEED": 70
+			},
+			"Basic_Info": {
+				"Species": "Tiny Bird Pokemon",
+				"Height": "0.3m",
+				"Weight": "2.0kg",
+				"Abilities": "Keen Eye, Sniper (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "022",
+				"How_Progress": "Level 20"
+			}
+		},{
+			"id": "022",
+			"Name": "Fearow",
+			"Types": "Normal,Flying",
+			"Favorite": 0,
+			"Photo": "Fearow.gif",
+			"Description": "In Alola, fish Pokemon are its prey. It can be seen circling above the ocean searching for food.",
+			"Stadistics": {
+				"HP": 65,
+				"ATK": 90,
+				"DEF": 65,
+				"ATK_SP": 61,
+				"DEF_SP": 61,
+				"SPEED": 100
+			},
+			"Basic_Info": {
+				"Species": "Beak Pokemon",
+				"Height": "1.2m",
+				"Weight": "38.0kg",
+				"Abilities": "Keen Eye, Sniper (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "021",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "023",
+			"Name": "Ekans",
+			"Types": "Poison",
+			"Favorite": 0,
+			"Photo": "Ekans.gif",
+			"Description": "The eggs of bird Pokemon are its favorite food. It swallows eggs whole, so sometimes an egg gets stuck, and Ekans faints.",
+			"Stadistics": {
+				"HP": 35,
+				"ATK": 60,
+				"DEF": 44,
+				"ATK_SP": 40,
+				"DEF_SP": 54,
+				"SPEED": 55
+			},
+			"Basic_Info": {
+				"Species": "Snake Pokemon",
+				"Height": "2.0m",
+				"Weight": "6.9kg",
+				"Abilities": "Intimidate, Shed Skin, Unnerve (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "024",
+				"How_Progress": "Level 22"
+			}
+		},{
+			"id": "024",
+			"Name": "Arbok",
+			"Types": "Poison",
+			"Favorite": 0,
+			"Photo": "Arbok.gif",
+			"Description": "After stunning its opponents with the pattern on its stomach, it quickly wraps them up in its body and waits for them to stop moving.",
+			"Stadistics": {
+				"HP": 60,
+				"ATK": 95,
+				"DEF": 69,
+				"ATK_SP": 65,
+				"DEF_SP": 79,
+				"SPEED": 80
+			},
+			"Basic_Info": {
+				"Species": "Cobra Pokemon",
+				"Height": "3.5m",
+				"Weight": "65.0kg",
+				"Abilities": "Intimidate, Shed Skin, Unnerve (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "023",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "025",
+			"Name": "Pikachu",
+			"Types": "Electric",
+			"Favorite": 1,
+			"Photo": "Pikachu.gif",
+			"Description": "While sleeping, it generates electricity in the sacs in its cheeks. If it is not getting enough sleep, it will be able to use only weak electricity.",
+			"Stadistics": {
+				"HP": 35,
+				"ATK": 55,
+				"DEF": 40,
+				"ATK_SP": 50,
+				"DEF_SP": 50,
+				"SPEED": 90
+			},
+			"Basic_Info": {
+				"Species": "Mouse Pokemon",
+				"Height": "0.4m",
+				"Weight": "6.0kg",
+				"Abilities": "Static, Lightning Rod (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "026",
+				"How_Progress": "Use Thunder Stone"
+			}
+		},{
+			"id": "026",
+			"Name": "Raichu",
+			"Types": "Electric",
+			"Favorite": 0,
+			"Photo": "Raichu.gif",
+			"Description": "Because so many trainers like the way Pikachu looks, you dont not see this Pokemon very often.",
+			"Stadistics": {
+				"HP": 60,
+				"ATK": 90,
+				"DEF": 55,
+				"ATK_SP": 90,
+				"DEF_SP": 80,
+				"SPEED": 110
+			},
+			"Basic_Info": {
+				"Species": "Mouse Pokemon",
+				"Height": "0.8m",
+				"Weight": "30.0kg",
+				"Abilities": "Static, Lightning Rod (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "025",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "027",
+			"Name": "Sandshrew",
+			"Types": "Ground",
+			"Favorite": 0,
+			"Photo": "Sandshrew.gif",
+			"Description": "When its skin gets wrinkled from moisture, it heads for a volcano. It lies flat on a spot with a lot of geothermal heat and dries itself out.",
+			"Stadistics": {
+				"HP": 50,
+				"ATK": 75,
+				"DEF": 85,
+				"ATK_SP": 20,
+				"DEF_SP": 30,
+				"SPEED": 40
+			},
+			"Basic_Info": {
+				"Species": "Mouse Pokemon",
+				"Height": "0.6m",
+				"Weight": "12.0kg",
+				"Abilities": "Sand Veil, Sand Rush (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "028",
+				"How_Progress": "Level 22"
+			}
+		},{
+			"id": "028",
+			"Name": "Sandslash",
+			"Types": "Ground",
+			"Favorite": 0,
+			"Photo": "Sandslash.gif",
+			"Description": "Thanks to its thick claws, it is good at climbing trees. There are plenty of Sandslach that park themselves in trees and go right to sleep.",
+			"Stadistics": {
+				"HP": 75,
+				"ATK": 100,
+				"DEF": 110,
+				"ATK_SP": 45,
+				"DEF_SP": 45,
+				"SPEED": 65
+			},
+			"Basic_Info": {
+				"Species": "Mouse Pokemon",
+				"Height": "1.0m",
+				"Weight": "29.5kg",
+				"Abilities": "Sand Veil, Sand Rush (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "027",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "029",
+			"Name": "Nidoran F",
+			"Types": "Poison",
+			"Favorite": 0,
+			"Photo": "Nidoran_F.gif",
+			"Description": "Nidoran F has barbs that secrete a powerful poison. They are thought to have developed as protection for this small-bodied Pokemon. When enraged, it releases a horrible toxin from its horn.",
+			"Stadistics": {
+				"HP": 55,
+				"ATK": 47,
+				"DEF": 52,
+				"ATK_SP": 40,
+				"DEF_SP": 40,
+				"SPEED": 41
+			},
+			"Basic_Info": {
+				"Species": "Poison Pin Pokemon",
+				"Height": "0.4m",
+				"Weight": "7.0kg",
+				"Abilities": "Poison Point, Rivalry, Hustle (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "030,031",
+				"How_Progress": "Level 16,Use Moon Stone"
+			}
+		},{
+			"id": "030",
+			"Name": "Nidorina",
+			"Types": "Poison",
+			"Favorite": 0,
+			"Photo": "Nidorina.gif",
+			"Description": "When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokemon appears to become nervous if separated from the others.",
+			"Stadistics": {
+				"HP": 70,
+				"ATK": 62,
+				"DEF": 67,
+				"ATK_SP": 55,
+				"DEF_SP": 55,
+				"SPEED": 56
+			},
+			"Basic_Info": {
+				"Species": "Poison Pin Pokemon",
+				"Height": "0.8m",
+				"Weight": "20.0kg",
+				"Abilities": "Poison Point, Rivalry, Hustle (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "029,031",
+				"How_Progress": "Basic Form,Use Moon Stone"
+			}
+		},{
+			"id": "031",
+			"Name": "Nidoqueen",
+			"Types": "Poison,Ground",
+			"Favorite": 0,
+			"Photo": "Nidoqueen.gif",
+			"Description": "Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokemon is at its strongest when it is defending its young.",
+			"Stadistics": {
+				"HP": 90,
+				"ATK": 92,
+				"DEF": 87,
+				"ATK_SP": 75,
+				"DEF_SP": 85,
+				"SPEED": 76
+			},
+			"Basic_Info": {
+				"Species": "Drill Pokemon",
+				"Height": "1.3m",
+				"Weight": "60.0kg",
+				"Abilities": "Poison Point, Rivalry, Sheer Force (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "029,030",
+				"How_Progress": "Basic Form,Level 16"
+			}
+		},{
+			"id": "032",
+			"Name": "Nidoran M",
+			"Types": "Poison",
+			"Favorite": 0,
+			"Photo": "Nidoran_M.gif",
+			"Description": "Nidoran M has developed muscles for moving its ears. Thanks to them, the ears can be freely moved in any direction. Even the slightest sound does not escape this Pokemon is notice.",
+			"Stadistics": {
+				"HP": 46,
+				"ATK": 57,
+				"DEF": 40,
+				"ATK_SP": 40,
+				"DEF_SP": 40,
+				"SPEED": 50
+			},
+			"Basic_Info": {
+				"Species": "Poison Pin Pokemon",
+				"Height": "0.5m",
+				"Weight": "9.0kg",
+				"Abilities": "Poison Point, Rivalry, Hustle (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "033,034",
+				"How_Progress": "Level 16,Use Moon Stone"
+			}
+		},{
+			"id": "033",
+			"Name": "Nidorino",
+			"Types": "Poison",
+			"Favorite": 0,
+			"Photo": "Nidorino.gif",
+			"Description": "Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challeges the foe with all its might.",
+			"Stadistics": {
+				"HP": 61,
+				"ATK": 72,
+				"DEF": 57,
+				"ATK_SP": 55,
+				"DEF_SP": 55,
+				"SPEED": 65
+			},
+			"Basic_Info": {
+				"Species": "Poison Pin Pokemon",
+				"Height": "0.9m",
+				"Weight": "19.5kg",
+				"Abilities": "Poison Point, Rivalry, Hustle (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "032,034",
+				"How_Progress": "Basic Form,Use Moon Stone"
+			}
+		},{
+			"id": "034",
+			"Name": "Nidoking",
+			"Types": "Poison,Ground",
+			"Favorite": 0,
+			"Photo": "Nidoking.gif",
+			"Description": "Nidoking's thick tail packs enormously destructive power. With one swing, it cab topple a metal trasmission tower. Once this Pokemon goes on a rampage there is no stopping it.",
+			"Stadistics": {
+				"HP": 81,
+				"ATK": 102,
+				"DEF": 77,
+				"ATK_SP": 85,
+				"DEF_SP": 75,
+				"SPEED": 85
+			},
+			"Basic_Info": {
+				"Species": "Drill Pokemon",
+				"Height": "1.4m",
+				"Weight": "62.0kg",
+				"Abilities": "Poison Point, Rivalry, Sheer Force (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "032,033",
+				"How_Progress": "Basic Form,Level 16"
+			}
+		},{
+			"id": "035",
+			"Name": "Cleafairy",
+			"Types": "Fairy",
+			"Favorite": 0,
+			"Photo": "Cleafairy.gif",
+			"Description": "Bathed in moonlight, its wings glow faintly. Without even flapping, Clefairy rises into the air where it dances around.",
+			"Stadistics": {
+				"HP": 70,
+				"ATK": 45,
+				"DEF": 48,
+				"ATK_SP": 60,
+				"DEF_SP": 65,
+				"SPEED": 35
+			},
+			"Basic_Info": {
+				"Species": "Fairy Pokemon",
+				"Height": "0.6m",
+				"Weight": "7.5kg",
+				"Abilities": "Cute Charm, Magic Guard, Friend Guard (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "036",
+				"How_Progress": "Use Moon Stone"
+			}
+		},{
+			"id": "036",
+			"Name": "Clefable",
+			"Types": "Fairy",
+			"Favorite": 0,
+			"Photo": "Clefable.gif",
+			"Description": "Some scientists belive that it gazes intently at the sky on nights with a full moon because it is homesick.",
+			"Stadistics": {
+				"HP": 95,
+				"ATK": 70,
+				"DEF": 73,
+				"ATK_SP": 95,
+				"DEF_SP": 90,
+				"SPEED": 60
+			},
+			"Basic_Info": {
+				"Species": "Fairy Pokemon",
+				"Height": "1.3m",
+				"Weight": "40.0kg",
+				"Abilities": "Cute Charm, Magic Guard, Unaware (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "035",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "037",
+			"Name": "Vulpix",
+			"Types": "Fire",
+			"Favorite": 0,
+			"Photo": "Vulpix.gif",
+			"Description": "It manipulates balls of fire to catch its prey. If you raise one from when it is young, it will grow close to you like a puppy Pokemon.",
+			"Stadistics": {
+				"HP": 38,
+				"ATK": 41,
+				"DEF": 40,
+				"ATK_SP": 50,
+				"DEF_SP": 65,
+				"SPEED": 65
+			},
+			"Basic_Info": {
+				"Species": "Fox Pokemon",
+				"Height": "0.6m",
+				"Weight": "9.9kg",
+				"Abilities": "Flash Fire, Drought (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "038",
+				"How_Progress": "Use Fire Stone"
+			}
+		},{
+			"id": "038",
+			"Name": "Ninetales",
+			"Types": "Fire",
+			"Favorite": 0,
+			"Photo": "Ninetales.gif",
+			"Description": "The flickering flames it spews from its mouth leave its opponents hypnotized. Then, this extremely intelligent Pokemon attacks.",
+			"Stadistics": {
+				"HP": 73,
+				"ATK": 76,
+				"DEF": 75,
+				"ATK_SP": 81,
+				"DEF_SP": 100,
+				"SPEED": 100
+			},
+			"Basic_Info": {
+				"Species": "Fox Pokemon",
+				"Height": "1.1m",
+				"Weight": "19.9kg",
+				"Abilities": "Flash Fire, Drought (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "037",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "039",
+			"Name": "Jigglypuff",
+			"Types": "Normal,Fairy",
+			"Favorite": 0,
+			"Photo": "Jigglypuff.gif",
+			"Description": "The songs they sing are totally different depending on the region they live in. Some even sound like they are shouting.",
+			"Stadistics": {
+				"HP": 115,
+				"ATK": 45,
+				"DEF": 20,
+				"ATK_SP": 45,
+				"DEF_SP": 25,
+				"SPEED": 20
+			},
+			"Basic_Info": {
+				"Species": "Balloon Pokemon",
+				"Height": "0.5m",
+				"Weight": "5.5kg",
+				"Abilities": "Cute Charm, Competitive, Friend Guard (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "040",
+				"How_Progress": "Use Moon Stone"
+			}
+		},{
+			"id": "040",
+			"Name": "Wigglytuff",
+			"Types": "Normal,Fairy",
+			"Favorite": 0,
+			"Photo": "Wigglytuff.gif",
+			"Description": "When it gets angry, it inhales with all its might, and its body gradually inflates. Sometimes they can grow 20 times larger.",
+			"Stadistics": {
+				"HP": 140,
+				"ATK": 70,
+				"DEF": 45,
+				"ATK_SP": 85,
+				"DEF_SP": 50,
+				"SPEED": 45
+			},
+			"Basic_Info": {
+				"Species": "Balloon Pokemon",
+				"Height": "1.0m",
+				"Weight": "12.0kg",
+				"Abilities": "Cute Charm, Competitive, Frisk (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "039",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "041",
+			"Name": "Zubat",
+			"Types": "Poison,Flying",
+			"Favorite": 0,
+			"Photo": "Zubat.gif",
+			"Description": "Their sking is so thin that they will be burned if sunlight hits them. When it gets cold out, they gather together to warm one another is bodies.",
+			"Stadistics": {
+				"HP": 40,
+				"ATK": 45,
+				"DEF": 35,
+				"ATK_SP": 30,
+				"DEF_SP": 40,
+				"SPEED": 55
+			},
+			"Basic_Info": {
+				"Species": "Bat Pokemon",
+				"Height": "0.8m",
+				"Weight": "7.5kg",
+				"Abilities": "Inner Focus, Infiltrator (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "042",
+				"How_Progress": "Level 22"
+			}
+		},{
+			"id": "042",
+			"Name": "Golbat",
+			"Types": "Poison,Flying",
+			"Favorite": 0,
+			"Photo": "Golbat.gif",
+			"Description": "They can suck down over 10 ounces of blood in one go. They have been known to drink so much blood that they can no longer fly.",
+			"Stadistics": {
+				"HP": 75,
+				"ATK": 80,
+				"DEF": 70,
+				"ATK_SP": 65,
+				"DEF_SP": 75,
+				"SPEED": 90
+			},
+			"Basic_Info": {
+				"Species": "Bat Pokemon",
+				"Height": "1.6m",
+				"Weight": "55.0kg",
+				"Abilities": "Inner Focus, Infiltrator (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "041",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "043",
+			"Name": "Oddish",
+			"Types": "Grass,Poison",
+			"Favorite": 0,
+			"Photo": "Oddish.gif",
+			"Description": "Oddish searches for fertile, nutrient-rich soil, then daytime, while it is planted, this Pokemon is feet are thought to change shape and become similar to the roots of trees.",
+			"Stadistics": {
+				"HP": 45,
+				"ATK": 50,
+				"DEF": 55,
+				"ATK_SP": 75,
+				"DEF_SP": 65,
+				"SPEED": 30
+			},
+			"Basic_Info": {
+				"Species": "Weed Pokemon",
+				"Height": "0.5m",
+				"Weight": "5.4kg",
+				"Abilities": "Chlorophyll, Run Away (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "044,045",
+				"How_Progress": "Level 21,Use Leaf Stone"
+			}
+		},{
+			"id": "044",
+			"Name": "Gloom",
+			"Types": "Grass,Poison",
+			"Favorite": 0,
+			"Photo": "Gloom.gif",
+			"Description": "From its mouth Gloom drips honey that smells absolutely horrible. Apparently, it loves the horrid stench. It sniffs the noxious fumes and then drools even more of its honey.",
+			"Stadistics": {
+				"HP": 60,
+				"ATK": 65,
+				"DEF": 70,
+				"ATK_SP": 85,
+				"DEF_SP": 75,
+				"SPEED": 40
+			},
+			"Basic_Info": {
+				"Species": "Weed Pokemon",
+				"Height": "0.8m",
+				"Weight": "8.6kg",
+				"Abilities": "Chlorophyll, Stench (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "043,045",
+				"How_Progress": "Basic Form,Use Leaf Stone"
+			}
+		},{
+			"id": "045",
+			"Name": "Vileplume",
+			"Types": "Grass,Poison",
+			"Favorite": 0,
+			"Photo": "Vileplume.gif",
+			"Description": "Vileplume has the world is largets petals. They are used to attract prey that are then doused with toxic spores. Once the prey are inmobilized, this Pokemon catches and devours them.",
+			"Stadistics": {
+				"HP": 75,
+				"ATK": 80,
+				"DEF": 85,
+				"ATK_SP": 110,
+				"DEF_SP": 90,
+				"SPEED": 50
+			},
+			"Basic_Info": {
+				"Species": "Flower Pokemon",
+				"Height": "1.2m",
+				"Weight": "18.6kg",
+				"Abilities": "Chlorophyll, Effect Spore (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "043,044",
+				"How_Progress": "Basic Form,Level 21"
+			}
+		},{
+			"id": "046",
+			"Name": "Paras",
+			"Types": "Bug,Grass",
+			"Favorite": 0,
+			"Photo": "Paras.gif",
+			"Description": "The mushrooms, known as tochukaso, are controlling the bug. Even if the bug bugs the mushrooms, they tell it to bug off.",
+			"Stadistics": {
+				"HP": 35,
+				"ATK": 70,
+				"DEF": 55,
+				"ATK_SP": 45,
+				"DEF_SP": 55,
+				"SPEED": 25
+			},
+			"Basic_Info": {
+				"Species": "Mushroom Pokemon",
+				"Height": "0.3m",
+				"Weight": "5.4kg",
+				"Abilities": "Effect Spore, Dry Skin, Damp (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "047",
+				"How_Progress": "Level 24"
+			}
+		},{
+			"id": "047",
+			"Name": "Parasect",
+			"Types": "Bug,Grass",
+			"Favorite": 0,
+			"Photo": "Parasect.gif",
+			"Description": "Its poisonous spores are also used in traditional medicine. Apparently, spores produced in Alola are not of very good quality.",
+			"Stadistics": {
+				"HP": 60,
+				"ATK": 95,
+				"DEF": 80,
+				"ATK_SP": 60,
+				"DEF_SP": 80,
+				"SPEED": 30
+			},
+			"Basic_Info": {
+				"Species": "Mushroom Pokemon",
+				"Height": "1.0m",
+				"Weight": "29.5kg",
+				"Abilities": "Effect Spore, Dry Skin, Damp (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "046",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "048",
+			"Name": "Venonat",
+			"Types": "Bug,Poison",
+			"Favorite": 0,
+			"Photo": "Venonat.gif",
+			"Description": "Venonat is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey.",
+			"Stadistics": {
+				"HP": 60,
+				"ATK": 55,
+				"DEF": 50,
+				"ATK_SP": 40,
+				"DEF_SP": 55,
+				"SPEED": 45
+			},
+			"Basic_Info": {
+				"Species": "Insect Pokemon",
+				"Height": "1.0m",
+				"Weight": "30.0kg",
+				"Abilities": "Compound Eyes, Tinted Lens, Run Away (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "049",
+				"How_Progress": "Level 31"
+			}
+		},{
+			"id": "049",
+			"Name": "Venomoth",
+			"Types": "Bug,Poison",
+			"Favorite": 0,
+			"Photo": "Venomoth.gif",
+			"Description": "Venomoth is nocturnal it is a Pokemon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the dakness.",
+			"Stadistics": {
+				"HP": 70,
+				"ATK": 65,
+				"DEF": 60,
+				"ATK_SP": 90,
+				"DEF_SP": 75,
+				"SPEED": 90
+			},
+			"Basic_Info": {
+				"Species": "Poison Moth Pokemon",
+				"Height": "1.5m",
+				"Weight": "12.5kg",
+				"Abilities": "Shield Dust, Tinted Lens, Wonder Skin (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "048",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "050",
+			"Name": "Diglett",
+			"Types": "Ground",
+			"Favorite": 0,
+			"Photo": "Diglett.gif",
+			"Description": "Around their crops, farmers plant the kind of tree that Diglett like to eat as a way of getting Diglett to plw the fields for them.",
+			"Stadistics": {
+				"HP": 10,
+				"ATK": 55,
+				"DEF": 25,
+				"ATK_SP": 35,
+				"DEF_SP": 45,
+				"SPEED": 95
+			},
+			"Basic_Info": {
+				"Species": "Mole Pokemon",
+				"Height": "0.2m",
+				"Weight": "0.8kg",
+				"Abilities": "Sand Veil, Arena Trap, Sand Force (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "051",
+				"How_Progress": "Level 26"
+			}
+		}
+	]
+}
