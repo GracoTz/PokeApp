@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/w3.css">
+    <title>Pokemon Details</title>
+</head>
+<body>
+    <header class="w3-container w3-red w3-center" style="position: relative;">
+        <h1 style="margin-left: -25px;">Pokemon Detail</h1>
+        <button id="go-back" style="position: absolute; right: 10px; top: 20px;" class="w3-button w3-round-xxlarge" title="Go Back">&times;</button>
+    </header>
+
+    <!-- Pokemon name, id and it is favorite or not -->
+    <div class="w3-container w3-border" style="min-width: 250px;">
+        <div class="w3-container" style="width: 100%; margin: auto;">
+            <h3 id="pokemon-name" class="w3-bar-item w3-left" style="margin-right: 50px;"></h3>
+            <h3 id="pokemon-id" class="w3-bar-item w3-left"></h3>
+            <button id="btn-favorite" class="w3-button w3-bar-item w3-right" style="position: relative; top: 8px; padding: 0;">
+                <img id="star-favorite" src="./img/star_off.jpg" alt="Star" width="40" height="40">
+            </button>
+        </div>
+    </div>
+    <div class="w3-container w3-center">
+        <img id="pokemon-photo" src="../images/unknow.gif" alt="Foto de un pokemon" class="w3-image" style="width: 60%; max-width: 350px; height: 300px;">
+    </div>
+
+    <!-- Basic Info Session -->
+    <div class="w3-panel w3-blue" style="width: 90%; margin: auto;">
+        <h4>Basic Info</h4>
+    </div>
+    <div class="w3-container w3-border" style="width: 90%; margin: auto; margin-top: -16px;">
+        <p><span class="w3-text-blue">Species</span>: <span id="pokemon-species"></span></p>
+        <p><span class="w3-text-blue">Type</span>: <span id="pokemon-type"></span></p>
+        <p><span class="w3-text-blue">Height</span>: <span id="pokemon-height"></span></p>
+        <p><span class="w3-text-blue">Weight</span>: <span id="pokemon-weight"></span></p>
+        <p><span class="w3-text-blue">Abilities</span>: <span id="pokemon-abilities"></span></p>
+    </div>
+
+    <!-- Description Session -->
+    <div class="w3-panel w3-blue" style="width: 90%; margin: auto;">
+        <h4>Description</h4>
+    </div>
+    <div class="w3-container w3-border" style="width: 90%; margin: auto; margin-top: -16px;">
+        <p id="pokemon-description"></p>
+    </div>
+
+    <!-- Base Stats Session -->
+    <div class="w3-panel w3-blue" style="width: 90%; margin: auto;">
+        <h4>Base Stats</h4>
+    </div>
+    <div class="w3-container w3-padding w3-border" style="width: 90%; margin: auto; margin-top: -16px;">
+        <div class="w3-container">
+            <span style="position: relative; bottom: 7px; margin-right: 32px;" class="w3-text-blue">HP</span>
+            <div  style="width: 80%; height: 25px; display: inline-block;">
+                <div id="pokemon-hp" class="w3-green w3-container w3-padding" style="height: 25px;"><span id="pokemon-hp-data" class="w3-right" style="position: relative; bottom: 6px; right: -10px;"></span></div>
+            </div>
+        </div>
+        <div class="w3-container">
+            <span style="position: relative; bottom: 7px; margin-right: 24px;" class="w3-text-blue">ATK</span>
+            <div style="width: 80%; height: 25px; display: inline-block;">
+                <div id="pokemon-atk" class="w3-red w3-container w3-padding" style="height: 25px;"><span id="pokemon-atk-data" class="w3-right" style="position: relative; bottom: 6px; right: -10px;"></span></div>
+            </div>
+        </div>
+        <div class="w3-container">
+            <span style="position: relative; bottom: 7px; margin-right: 23px;" class="w3-text-blue">DEF</span>
+            <div style="width: 80%; height: 25px; display: inline-block;">
+                <div id="pokemon-def" class="w3-blue w3-container w3-padding" style="height: 25px;"><span id="pokemon-def-data" class="w3-right" style="position: relative; bottom: 6px; right: -10px;"></span></div>
+            </div>
+        </div>
+        <div class="w3-container">
+            <span style="position: relative; bottom: 7px;" class="w3-text-blue">ATK SP</span>
+            <div style="width: 80%; height: 25px; display: inline-block;">
+                <div id="pokemon-atkS" class="w3-orange w3-container w3-padding" style="height: 25px;"><span id="pokemon-atkS-data" class="w3-right" style="position: relative; bottom: 6px; right: -10px;"></span></div>
+            </div>
+        </div>
+        <div class="w3-container">
+            <span style="position: relative; bottom: 7px;" class="w3-text-blue">DEF SP</span>
+            <div style="width: 80%; height: 25px; display: inline-block;">
+                <div id="pokemon-defS" class="w3-teal w3-container w3-padding" style="height: 25px;"><span id="pokemon-defS-data" class="w3-right" style="position: relative; bottom: 6px; right: -10px;"></span></div>
+            </div>
+        </div>
+        <div class="w3-container">
+            <span style="position: relative; bottom: 7px; margin-right: 5px;" class="w3-text-blue">SPEED</span>
+            <div style="width: 80%; height: 25px; display: inline-block;">
+                <div id="pokemon-speed" class="w3-yellow w3-container w3-padding" style="height: 25px;"><span id="pokemon-speed-data" class="w3-right" style="position: relative; bottom: 6px; right: -10px;"></span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Evolutions of the Pokemon -->
+    <div class="w3-panel w3-blue" style="width: 90%; margin: auto;">
+        <h4>Evolutions</h4>
+    </div>
+    <div id="space-container" class="w3-container w3-border" style="margin: auto; width: 90%; position: relative; margin-top: -16px; margin-bottom: 30px;"></div>
+
+    <!-- Button to add to team -->
+    <div class="w3-container w3-center">
+        <button class="w3-btn" style="padding: 0; border-radius: 50%;">
+            <img src="../images/favicon.ico" width="80">
+        </button>
+        <p>Add the pokemon to Team</p>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
