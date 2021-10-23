@@ -17,7 +17,10 @@ db.connect((err) => {
 });
 
 // Routers
-app.use(require('./routes/renders'));
+app.get('/', (req, res) => {
+    res.redirect('/home');
+});
+
 app.use(require('./routes/get_data'));
 app.use(require('./routes/favorites'));
 app.use(require('./routes/add'));
