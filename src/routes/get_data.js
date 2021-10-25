@@ -5,8 +5,21 @@ const fc = require('../libs/functions');
 let pokemonSelected = "";
 
 // Por aqui va a obtener todos los pokemones
-Router.get('/get-all', async (req, res) => {
-    // Devolver todos los pokemones pero solo algunas propiedades
+Router.get('/get-pokemons', async (req, res) => {
+    let pokeData = await conn.query('SELECT id, Name, Types, Photo FROM pokemons');
+    let pokemons = [];
+    for (const pokemon of pokeData) {
+        let pokeResult = {id:"",Name:"",Types:[],Photo:""};
+        for (const key in pokemon) {
+            if (key === "Types") {
+                pokeResult[key] = fc.createArray(pokemon[key]);
+            } else {
+                pokeResult[key] = pokemon[key];
+            }
+        }
+        pokemons.push(pokeResult);
+    }
+    res.json(pokemons);
 });
 
 // Devolver al pokemon solo con los datos solicitados
