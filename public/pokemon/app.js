@@ -104,7 +104,7 @@ async function printEvolutions () {
         for (let i = 0; i < amountEvolutions; i++) {
             let htmlCode = `
         <div class="poke-ev" data-id="${evolutionArray[i]['id']}" title="${evolutionArray[i]['Name']}" class="w3-container" style="cursor: pointer; margin: auto; height: 100px; position: relative;">
-            <div class="w3-container" style="width: 25%; height: 100%; margin-left: -20px; display: inline-block;">
+            <div class="w3-container" style="width: 150px; height: 100%; margin-left: -20px; display: inline-block;">
                 <img src="../images/pokemons/${evolutionArray[i]['Photo']}" class="w3-image" style="width: 100%; height: 100%;">
             </div>
             <div class="w3-container" style="width: 85%; text-align: center;">
@@ -163,7 +163,7 @@ async function setFavorite (id) {
 }
 
 function calcBarProgress (p) {
-    let res = (p / (200 * 0.8) * 100);
+    let res = (p / (300 * 0.8) * 100);
     return res.toPrecision(3);
 }
 
