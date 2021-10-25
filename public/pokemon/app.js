@@ -34,7 +34,7 @@ const pokemonSPEEDData = document.querySelector('#pokemon-speed-data');
 const evolutionsContainer = document.querySelector('#space-container');
 
 goBack.addEventListener('click', () => {
-    window.location.assign('/home');
+    history.back();
 });
 
 async function pokemonData () {
@@ -133,8 +133,13 @@ async function printStar () {
     // Pokemon data
     let pokemon = await pokemonData();
 
-    if (pokemon['Favorite'] == 0) starFavorite.src = "img/star_off.jpg";
-    else starFavorite.src = "img/star_on.jpg";
+    if (pokemon['Favorite'] == 0) {
+        starFavorite.src = "img/star_off.jpg";
+        btnFavorite.setAttribute('title', 'Click for add to favorite');
+    } else {
+        starFavorite.src = "img/star_on.jpg";
+        btnFavorite.setAttribute('title', 'Click for quit of favorite');
+    }
 
     btnFavorite.addEventListener('click', () => {
         setFavorite(pokemon['id']);
@@ -149,8 +154,10 @@ async function setFavorite (id) {
         isFavorite = await isFavorite.json();
         if (isFavorite['Favorite']) {
             starFavorite.src = "img/star_on.jpg";
+            btnFavorite.setAttribute('title', 'Click for quit of favorite');
         } else {
             starFavorite.src = "img/star_off.jpg";
+            btnFavorite.setAttribute('title', 'Click for add to favorite');
         }
     }
 }
