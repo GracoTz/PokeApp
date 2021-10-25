@@ -103,13 +103,13 @@ async function printEvolutions () {
         let html = '';
         for (let i = 0; i < amountEvolutions; i++) {
             let htmlCode = `
-        <div class="poke-ev" data-id="${evolutionArray[i]['id']}" title="${evolutionArray[i]['Name']}" class="w3-container" style="cursor: pointer; margin: auto; height: 100px; position: relative;">
-            <div class="w3-container" style="width: 150px; height: 100%; margin-left: -20px; display: inline-block;">
-                <img src="../images/pokemons/${evolutionArray[i]['Photo']}" class="w3-image" style="width: 100%; height: 100%;">
+        <div class="w3-container poke-evs-con" data-id="${evolutionArray[i]['id']}" title="${evolutionArray[i]['Name']}">
+            <div class="w3-container poke-evs-photo-con">
+                <img src="../images/pokemons/${evolutionArray[i]['Photo']}" class="w3-image">
             </div>
-            <div class="w3-container" style="width: 85%; text-align: center;">
-                <span style="position: absolute; top: 10px; font-size: 20px;">${evolutionArray[i]['Name']}</span>
-                <span style="position: absolute; bottom: 10px;">${evolutionHowArray[i]}</span>
+            <div class="w3-container poke-evs-name-id-con">
+                <span class="poke-evs-name">${evolutionArray[i]['Name']}</span>
+                <span class="poke-evs-id">${evolutionHowArray[i]}</span>
             </div>
         </div>`;
             html += htmlCode;
@@ -119,7 +119,7 @@ async function printEvolutions () {
         evolutionsContainer.innerHTML = html;
 
         // Agarrar a los pokemones evoluciones y darles el evento de si los tocan que los busque
-        const pokemonsEv = document.querySelectorAll(".poke-ev");
+        const pokemonsEv = document.querySelectorAll(".poke-evs-con");
         pokemonsEv.forEach(pokemon => {
             pokemon.addEventListener('click', function () {
                 const id = this.dataset.id;
