@@ -8,24 +8,25 @@
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/w3.css">
     <link rel="stylesheet" href="../css/types.css">
+    <link rel="stylesheet" href="../css/all.css">
 </head>
 <body>
     <header class="w3-container w3-red w3-center">
         <h1>PokeApp</h1>
     </header>
-    <nav class="w3-bar w3-blue" style="position: sticky; top: 0; z-index: 1;">
-        <a href="/" class="w3-bar-item w3-button" style="font-size: 14px;">Home</a>
-        <a href="/pokemons" class="w3-bar-item w3-button" style="font-size: 14px;">Pokemons</a>
-        <a href="/favorites" class="w3-bar-item w3-button" style="font-size: 14px;">Favorites</a>
-        <a href="/teams" class="w3-bar-item w3-button" style="font-size: 14px;">Team</a>
+    <nav class="w3-bar w3-blue nav-bar">
+        <a href="/" class="w3-bar-item w3-button nav-item">Home</a>
+        <a href="/pokemons" class="w3-bar-item w3-button w3-red nav-item">Pokemons</a>
+        <a href="/favorites" class="w3-bar-item w3-button nav-item">Favorites</a>
+        <a href="/teams" class="w3-bar-item w3-button nav-item">Team</a>
     </nav>
-    <div id="search-container" class="w3-container w3-padding" style="background: #444; position: sticky; top: 36px; z-index: 2;">
-        <div style="margin: auto; width: 80%; position: relative;">
-            <input type="text" id="bar-search" placeholder="Type the pokemon name" class="w3-input w3-round-xlarge" style="width: 100%; display: inline;">
-            <span style="padding: 1px 0 0 0; width: 38px; height: 38px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; position: absolute; right: 0;"><img src="../images/search-button-png-23495.png" alt="Boton de Busqueda" class="w3-image"></span>
+    <div id="search-container" class="w3-container w3-padding">
+        <div class="input-con">
+            <input type="text" id="bar-search" placeholder="Type the pokemon name" class="w3-input w3-round-xlarge">
+            <span class="search-icon"><img src="../images/search-button-png-23495.png" alt="Boton de Busqueda" class="w3-image"></span>
         </div>
     </div>
-    <div style="position: relative; top: 0;" id="pokemons-container"></div>
+    <div id="pokemons-container"></div>
     <script src="./app.js"></script>
 </body>
 </html>

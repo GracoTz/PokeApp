@@ -14,15 +14,15 @@ async function printPokemons () {
 
     for (const pokemon of pokemons) {
         let htmlCode = `
-        <div class="w3-container pokemon-favorite" title="${pokemon['Name']}" data-id="${pokemon['id']}" style="cursor: pointer; border-bottom: 1px solid #ccc; position: relative;">
-            <div style="width: 100px; height: 100%; position: relative; left: 0; display: inline-block;">
+        <div class="w3-container poke-fav" title="${pokemon['Name']}" data-id="${pokemon['id']}">
+            <div class="poke-fav-photo">
                 <img src="../images/pokemons/${pokemon['Photo']}" alt="Foto de algun pokemon" class="w3-image">
             </div>
-            <div style="position: relative; bottom: 10px; display: inline-block; width: 50%; height: 100%; text-align: start;">
-                <h3 style="margin-left: 5px;">${pokemon['Name']}</h3>
-                <h6 style="margin-left: 5px; color: #666;">#${pokemon['id']}</h6>
+            <div class="poke-fav-name-id">
+                <h3 class="poke-name-id">${pokemon['Name']}</h3>
+                <h6 class="poke-name-id">#${pokemon['id']}</h6>
             </div>
-            <div id="types-container" style="position: absolute; right: 0; bottom: 8px; display: inline-block; width: 30%; min-width: 200px; height: 25px; text-align: center;">`;
+            <div id="types-container">`;
         let closes = `</div></div>`;
         let typeshtml = '';
         
@@ -37,7 +37,7 @@ async function printPokemons () {
     }
     pokemonsContainer.innerHTML = html;
 
-    const pokemonsFavorites = document.querySelectorAll('.pokemon-favorite');
+    const pokemonsFavorites = document.querySelectorAll('.poke-fav');
     pokemonsFavorites.forEach(pokemon => {
         pokemon.addEventListener('click', function () {
             const id = this.dataset.id;

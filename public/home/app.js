@@ -1,7 +1,6 @@
 'use strict';
 
 const btnRandom = document.querySelector('#btn-random');
-const btnPokeInfo = document.querySelector('#btn-see');
 let pokemonSelected = "";
 
 const getBasicInfo = async () => {
@@ -19,10 +18,4 @@ const getBasicInfo = async () => {
 
 btnRandom.addEventListener('click', () => {
     getBasicInfo();
-});
-
-btnPokeInfo.addEventListener('click', () => {
-    pokemonSelected = pokemonSelected.toString().padStart(3, '0');
-    console.log(pokemonSelected);
-    window.location.assign(`/pokemon/${pokemonSelected}`);
 });
