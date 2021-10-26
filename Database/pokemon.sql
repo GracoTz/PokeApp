@@ -44,3 +44,10 @@ CREATE TABLE evolutions (
 	How_Progress VARCHAR(100),
 	FOREIGN KEY (pokemon_id) REFERENCES pokemons (id)
 );
+
+CREATE TABLE teams (
+	id INT NOT NULL AUTO_INCREMENT,
+	Name VARCHAR(100) NOT NULL,
+	pokemons_id VARCHAR(23),
+	PRIMARY KEY (id)
+);
