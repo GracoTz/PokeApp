@@ -5,8 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PokeApp</title>
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/w3.css">
+    <link rel="stylesheet" href="../css/all.css">
 </head>
 <body>
-    <h1>My Teams Pages</h1>
+    <header class="w3-container w3-red w3-center">
+        <h1>PokeApp</h1>
+    </header>
+    <nav class="w3-bar w3-blue nav-bar">
+        <a href="/" class="w3-bar-item w3-button nav-item">Home</a>
+        <a href="/pokemons" class="w3-bar-item w3-button nav-item">Pokemons</a>
+        <a href="/favorites" class="w3-bar-item w3-button nav-item">Favorites</a>
+        <a href="/teams" class="w3-bar-item w3-button w3-red nav-item">Teams</a>
+    </nav>
+    <div id="teams-container"></div>
+    <button class="w3-button w3-circle w3-red team-button-create">+</button>
+    <script src="./app.js"></script>
 </body>
 </html>

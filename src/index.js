@@ -23,6 +23,7 @@ app.get('/', (req, res) => {
 
 app.use(require('./routes/get_data'));
 app.use(require('./routes/favorites'));
+app.use(require('./routes/team'));
 app.use(require('./routes/add'));
 
 // Server
