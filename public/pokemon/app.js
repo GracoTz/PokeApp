@@ -1,6 +1,7 @@
 'use strict';
 
 const goBack = document.querySelector('#go-back');
+const btnAddTeam = document.querySelector('.btn-add-team');
 // Elemento estrella de favorito y la foto
 const btnFavorite = document.querySelector('#btn-favorite');
 const starFavorite = document.querySelector('#star-favorite');
@@ -32,14 +33,50 @@ const pokemonDEFSData = document.querySelector('#pokemon-defS-data');
 const pokemonSPEEDData = document.querySelector('#pokemon-speed-data');
 // Elementos de las Evoluciones
 const evolutionsContainer = document.querySelector('#space-container');
+let pokemonIDTEAM;
 
 goBack.addEventListener('click', () => {
     history.back();
 });
 
+btnAddTeam.addEventListener('click', async () => {
+    let teams = await fetch('/getTeamsNames');
+    teams = await teams.json();
+    let msg = `In Which of this team you will add this pokemon:\nPick one option of those\n`;
+    let teamsSize = teams.length;
+    let names = new Map();
+    for (let i = 0; i < teamsSize; i++) {
+        if (i === teamsSize - 1) {
+            msg += `${i+1} --> ${teams[i]}`;
+            names.set(i+1, teams[i]);
+        } else {
+            msg += `${i+1} --> ${teams[i]}\n`;
+            names.set(i+1, teams[i]);
+        }
+    }
+    let teamPick;
+    while (true) {
+        teamPick = Number(prompt(msg));
+        if (isNaN(teamPick)) {
+            alert('Please Introduce a valid number');
+            continue;
+
+        } else if (teamPick > teamsSize || teamPick <= 0) {
+            alert('This option is not available');
+            continue;
+
+        } else break;
+    }
+    
+    let res = await fetch(`/addPokemon/${names.get(teamPick)}/${pokemonIDTEAM}`,{method: 'PATCH'});
+    res = await res.json();
+    if (!res['ok']) alert(res['message']);
+});
+
 async function pokemonData () {
     let pokemon = await fetch('/getFullPokemon');
     pokemon = await pokemon.json();
+    pokemonIDTEAM = pokemon['id'];
     return pokemon;
 }
 
@@ -163,7 +200,7 @@ async function setFavorite (id) {
 }
 
 function calcBarProgress (p) {
-    let res = (p / (300 * 0.8) * 100);
+    let res = (p / (250 * 0.8) * 100);
     return res.toPrecision(3);
 }
 

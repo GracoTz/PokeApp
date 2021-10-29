@@ -1,0 +1,209 @@
+/* Bar of nav is global */
+.nav-bar {
+    position: sticky; 
+    top: 0; 
+    z-index: 1;
+}
+.nav-item {font-size: 14px;}
+
+/* Home styles */
+.poke-rand-con {
+    width: 80%; 
+    height: 308px; 
+    min-width: 250px; 
+    max-width: 300px; 
+    margin: auto; 
+    margin-top: 24px;
+}
+.poke-rand-name-id {
+    max-width: 100%; 
+    min-width: 250px; 
+    margin: auto;
+}
+#img {
+    width: 100%; 
+    height: 250px;
+}
+.btn-generate-con {
+    margin-top: 50px; 
+    width: 100%; 
+    text-align: center;
+}
+
+/* Pokemons and Favorites Pages similars styles*/
+.poke-fav {
+    cursor: pointer; 
+    border-bottom: 1px solid #ccc; 
+    position: relative;
+}
+.poke-fav-photo {
+    width: 100px; 
+    height: 100%; 
+    position: relative; 
+    left: 0; 
+    display: inline-block;
+}
+.poke-fav-name-id {
+    position: relative; 
+    bottom: 10px; 
+    display: inline-block; 
+    width: 50%; 
+    height: 100%;
+}
+.poke-name-id {margin-left: 5px;}
+.poke-name-id:last-child {color: #777;}
+#types-container {
+    position: absolute; 
+    right: 2px; 
+    bottom: 8px; 
+    display: inline-block; 
+    width: 160px; 
+    height: 25px; 
+    text-align: center;
+}
+
+/* Pokemons Page */
+#search-container {
+    background: #444; 
+    position: sticky; 
+    top: 36px; 
+    z-index: 2;
+}
+.input-con {
+    margin: auto; 
+    width: 80%; 
+    position: relative;
+}
+#bar-search {
+    width: 100%; 
+    display: inline;
+}
+.search-icon {
+    padding: 1px 0 0 0; 
+    width: 38px; 
+    height: 38px; 
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px; 
+    position: absolute; right: 0;
+}
+
+/* Pokemon Info Page */
+.poke-info-header {
+    position: sticky; 
+    top: 0; 
+    z-index: 1;
+}
+.poke-info-h1 {margin-left: -25px;}
+#go-back {
+    position: absolute; 
+    right: 10px; 
+    top: 20px;
+}
+.poke-info-name-id-fav-con {
+    background-color: #fff; 
+    min-width: 250px; 
+    position: sticky; 
+    top: 74px; 
+    z-index: 1;
+}
+#pokemon-name {margin-right: 50px;}
+#btn-favorite {
+    position: relative; 
+    top: 8px; 
+    padding: 0;
+}
+#star-favorite {
+    width: 40px; 
+    height: 40px;
+}
+#pokemon-photo {
+    width: 350px; 
+    height: 325px;
+}
+.bar-panel {
+    width: 90%; 
+    margin: auto;
+}
+.poke-info-con {
+    width: 90%; 
+    margin: auto; 
+    margin-top: -16px;
+}
+.stat-name {
+    position: relative; 
+    bottom: 7px;
+}
+.stat-bar {
+    width: 75%;
+    height: 25px;
+    display: inline-block;
+}
+.stat-progress {height: 25px;}
+.stat-number {
+    position: relative; 
+    bottom: 6px; 
+    right: -10px;
+}
+.hp {margin-right: 32px;}
+.atk {margin-right: 24px;}
+.def {margin-right: 23px;}
+.speed {margin-right: 5px;}
+#space-container {
+    margin: auto; 
+    width: 90%; 
+    position: relative; 
+    margin-top: -16px; 
+    margin-bottom: 30px;
+}
+.btn-add-team {
+    padding: 0; 
+    border-radius: 50%;
+}
+.poke-evs-con {
+    cursor: pointer; 
+    margin: auto; 
+    height: 100px; 
+    position: relative;
+}
+.poke-evs-photo-con {
+    width: 150px; 
+    height: 100%; 
+    margin-left: -20px; 
+    display: inline-block;
+}
+.poke-evs-name-id-con {
+    width: 85%; 
+    text-align: center;
+}
+.poke-evs-name {
+    position: absolute; 
+    top: 10px; 
+    font-size: 20px;
+}
+.poke-evs-id {
+    position: absolute; 
+    bottom: 10px;
+}
+
+/* Team Page */
+.team-con {
+    position: relative;
+    width: 90%; 
+    margin: auto;
+    cursor: pointer;
+}
+.team-con-imgs {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: fit-content; 
+    margin-top: -11px;
+}
+.team-pokes-imgs {width: 16.6%;}
+.team-button-create {
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px;
+    z-index: 1; 
+    padding: 13px 19px; 
+}

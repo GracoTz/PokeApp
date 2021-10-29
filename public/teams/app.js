@@ -33,6 +33,7 @@ function printTeamEmpty (name, id) {
     </div>`;
     teamContainer.innerHTML += htmlCode;
     deleteButtons();
+    btnTeamEvent();
 }
 
 // This Working Good
@@ -60,13 +61,14 @@ async function printTeams () {
                 for (const poke of team['Pokemons']) {
                     let imgTag = `<img src="../images/pokemons/${poke['Photo']}" class="w3-image team-pokes-imgs" title="${poke['Name']}">`;
                     htmlCode += imgTag;
-                    htmlCode += closes;
-                    html += htmlCode;
                 }
+                htmlCode += closes;
+                html += htmlCode;
             }
         }
         teamContainer.innerHTML = html;
         deleteButtons();
+        btnTeamEvent();
     }
 }
 
@@ -79,6 +81,16 @@ function deleteButtons () {
             fetch(`/deleteTeam/${id}`, {method: 'DELETE'});
             const teamConInfo = document.querySelector(`.team-con-${id}`);
             teamContainer.removeChild(teamConInfo);
+        });
+    });
+}
+
+function btnTeamEvent () {
+    const teamsBtn = document.querySelectorAll('.team-con');
+    teamsBtn.forEach(team => {
+        team.addEventListener('click', function () {
+            const id = this.dataset.id;
+            window.location.assign(`/seeTeam/${id}`);
         });
     });
 }
