@@ -7,13 +7,11 @@ const connection = mysql.createConnection({
     database: 'pokemon'
 });
 
-const query = async (sql, values) => {
-    return new Promise((resolve, reject) => {
-        connection.query(sql, values, (err, res) => {
-            if (err) reject(err);
-            else resolve(res);
-        });
+const query = async (sql, values) => new Promise((resolve, reject) => {
+    connection.query(sql, values, (err, res) => {
+        if (err) reject(err);
+        else resolve(res);
     });
-};
+});
 
 module.exports = {connection, query};

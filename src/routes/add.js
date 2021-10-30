@@ -4,23 +4,16 @@ const conn = require('../db');
 const fs = require('fs');
 const interface = require('../libs/objects');
 
-// Aqui voy a agregar a la base de datos todos los datos de un archivo json
 Router.get('/add-pokemons', (req, res) => {
-    // Leer el archivo
     fs.readFile('../Database/pokemons.json', 'utf-8', async (err, file) => {
-        // Verificar error en la lectura y cerrar proceso si hay
         if (err) {
             console.error(err);
             process.exit(1);
         }
 
-        // Parsearlo a json para usarlo
         let pokemonsJSON = JSON.parse(file);
-
-        // Sacar el array del archivo
         let pokemons = pokemonsJSON.pokemons;
 
-        // Crear los objetos de cada tabla de la base de datos
         let pokemons_table     = {id:"",Name:"",Types:"",Favorite:false,Photo:""};
         let descriptions_table = {pokemon_id:"", Description:""};
         let stadistics_table   = {pokemon_id:"",HP:0,ATK:0,DEF:0,ATK_SP:0,DEF_SP:0,SPEED:0};
@@ -29,7 +22,6 @@ Router.get('/add-pokemons', (req, res) => {
         let pokeInterface = interface.pokemon;
 
         try {
-            // Iterar por cada pokemon
             for (const pokemon of pokemons) {
                 for (const key in pokeInterface) {
 
@@ -69,19 +61,16 @@ Router.get('/add-pokemons', (req, res) => {
                     }
                 }
 
-                // Consulta para insertar los datos de los objetos de arriba en las tablas correspondientes
-                await conn.query('INSERT INTO pokemons SET ?',     pokemons_table);
-                await conn.query('INSERT INTO descriptions SET ?', descriptions_table);
-                await conn.query('INSERT INTO stadistics SET ?',   stadistics_table);
-                await conn.query('INSERT INTO basic_info SET ?',   basic_info_table);
-                await conn.query('INSERT INTO evolutions SET ?',   evolutions_table);
+                conn.query('INSERT INTO pokemons SET ?',     pokemons_table);
+                conn.query('INSERT INTO descriptions SET ?', descriptions_table);
+                conn.query('INSERT INTO stadistics SET ?',   stadistics_table);
+                conn.query('INSERT INTO basic_info SET ?',   basic_info_table);
+                conn.query('INSERT INTO evolutions SET ?',   evolutions_table);
             }
-
-            // Si todos sale bien enviar mensaje de todo ok
-            res.json({message: "All data introduced in the database"});
+            res.send("OK");
 
         } catch (err) {
-            res.status(404).json({message: err.message});
+            res.status(404).send({message: err.message});
         }
     });
 });

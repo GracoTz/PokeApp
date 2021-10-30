@@ -33,7 +33,6 @@ function printTeamEmpty (name, id) {
     </div>`;
     teamContainer.innerHTML += htmlCode;
     deleteButtons();
-    btnTeamEvent();
 }
 
 // This Working Good
@@ -68,7 +67,6 @@ async function printTeams () {
         }
         teamContainer.innerHTML = html;
         deleteButtons();
-        btnTeamEvent();
     }
 }
 
@@ -81,16 +79,6 @@ function deleteButtons () {
             fetch(`/deleteTeam/${id}`, {method: 'DELETE'});
             const teamConInfo = document.querySelector(`.team-con-${id}`);
             teamContainer.removeChild(teamConInfo);
-        });
-    });
-}
-
-function btnTeamEvent () {
-    const teamsBtn = document.querySelectorAll('.team-con');
-    teamsBtn.forEach(team => {
-        team.addEventListener('click', function () {
-            const id = this.dataset.id;
-            window.location.assign(`/seeTeam/${id}`);
         });
     });
 }

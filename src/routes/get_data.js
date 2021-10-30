@@ -19,23 +19,22 @@ Router.get('/getPokemons', async (req, res) => {
         }
         pokemons.push(pokeResult);
     }
-    res.json(pokemons);
+    res.send(pokemons);
 });
 
 // Devolver al pokemon solo con los datos solicitados
 Router.get('/getRandom/:id', async (req, res) => {
-    let { id } = req.params;
+    const { id } = req.params;
     if (!isNaN(Number(id))) {
-        id = id.padStart(3, '0');
-        const sql = `SELECT id, Name, Photo FROM pokemons WHERE id='${id}'`;
+        const sql = `SELECT id, Name, Photo FROM pokemons WHERE id='${id.padStart(3,'0')}'`;
         let pokemon = await conn.query(sql);
         if (pokemon.length !== 0) {
-            res.json(pokemon[0]);
+            res.send(pokemon[0]);
         } else {
-            res.json({message: `The pokemon ${id} isn't exists`});
+            res.send({message: `The pokemon ${id} isn't exists`});
         }
     } else {
-        res.status(404).json({message: "Failed Request"});
+        res.status(404).send({message: "Failed Request"});
     }
 });
 
@@ -109,7 +108,7 @@ Router.get('/getFullPokemon', async (req, res) => {
                 pokeResult[key] = pokemon_data[0][key];
             }
         }
-        res.json(pokeResult);
+        res.send(pokeResult);
     }
 });
 
@@ -120,8 +119,7 @@ Router.get('/getPokemonsByChars/:character', async (req, res) => {
     if (isNaN(Number(character))) {
         pokeData = await conn.query(`SELECT id, Name, Types, Photo FROM pokemons WHERE Name LIKE "%${character}%"`);
     } else {
-        character = character.padStart(3, '0');
-        pokeData = await conn.query(`SELECT id, Name, Types, Photo FROM pokemons WHERE id LIKE "%${character}"`);
+        pokeData = await conn.query(`SELECT id, Name, Types, Photo FROM pokemons WHERE id LIKE "%${character.padStart(3,'0')}"`);
     }
     
     let pokemons = [];
@@ -136,7 +134,7 @@ Router.get('/getPokemonsByChars/:character', async (req, res) => {
         }
         pokemons.push(pokeResult);
     }
-    res.json(pokemons);
+    res.send(pokemons);
 });
 
 module.exports = Router;
