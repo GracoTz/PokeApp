@@ -1,14 +1,13 @@
 {
-  "name": "API",
-  "version": "1.0.0",
-  "description": "",
+  "name": "PokeApp",
+  "version": "2.0.0",
+  "description": "This is a simple app of pokemon using nodejs express and mysql",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Pokemon","Teams","Information"],
+  "author": "Grabiel Acosta Cruz",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",

@@ -33,6 +33,7 @@ function printTeamEmpty (name, id) {
     </div>`;
     teamContainer.innerHTML += htmlCode;
     deleteButtons();
+    loadContent();
 }
 
 // This Working Good
@@ -40,7 +41,7 @@ async function printTeams () {
     let teams = await fetch('/getTeams');
     teams = await teams.json();
     if (teams.length === 0) {
-        teamContainer.innerHTML = '<h1>Not have teams yet</h1>';
+        teamContainer.innerHTML = '<h1 class="w3-center">Not have teams yet</h1>';
     } else {
         let html = '';
         for (const team of teams) {
@@ -79,6 +80,7 @@ function deleteButtons () {
             fetch(`/deleteTeam/${id}`, {method: 'DELETE'});
             const teamConInfo = document.querySelector(`.team-con-${id}`);
             teamContainer.removeChild(teamConInfo);
+            loadContent();
         });
     });
 }
