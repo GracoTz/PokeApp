@@ -886,10 +886,10 @@
 			}
 		},{
 			"id": "035",
-			"Name": "Cleafairy",
+			"Name": "Clefairy",
 			"Types": "Fairy",
 			"Favorite": 0,
-			"Photo": "Cleafairy.gif",
+			"Photo": "Clefairy.gif",
 			"Description": "Bathed in moonlight, its wings glow faintly. Without even flapping, Clefairy rises into the air where it dances around.",
 			"Stadistics": {
 				"HP": 70,
@@ -1299,6 +1299,786 @@
 				"Have_Evolutions": 1,
 				"Evolutions": "051",
 				"How_Progress": "Level 26"
+			}
+		},{
+			"id": "051",
+			"Name": "Dugtrio",
+			"Types": "Ground",
+			"Favorite": 0,
+			"Photo": "Dugtrio.gif",
+			"Description": "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+			"Stadistics": {
+				"HP": 35,
+				"ATK": 100,
+				"DEF": 50,
+				"ATK_SP": 50,
+				"DEF_SP": 70,
+				"SPEED": 120
+			},
+			"Basic_Info": {
+				"Species": "Mole Pokemon",
+				"Height": "0.7m",
+				"Weight": "33.3kg",
+				"Abilities": "Sand Veil, Arena Trap, Sand Force (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "050",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "052",
+			"Name": "Meowth",
+			"Types": "Normal",
+			"Favorite": 0,
+			"Photo": "Meowth.gif",
+			"Description": "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
+			"Stadistics": {
+				"HP": 40,
+				"ATK": 45,
+				"DEF": 35,
+				"ATK_SP": 40,
+				"DEF_SP": 40,
+				"SPEED": 90
+			},
+			"Basic_Info": {
+				"Species": "Scratch Cat Pokemon",
+				"Height": "0.4m",
+				"Weight": "4.2kg",
+				"Abilities": "Pickup, Technician, Unnerve (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "053",
+				"How_Progress": "Level 28"
+			}
+		},{
+			"id": "053",
+			"Name": "Persian",
+			"Types": "Normal",
+			"Favorite": 0,
+			"Photo": "Persian.gif",
+			"Description": "A Persian's six bold whiskers sense air movements to determine what is in its vicinity. It becomes docile if grabbed by the whiskers.",
+			"Stadistics": {
+				"HP": 65,
+				"ATK": 70,
+				"DEF": 60,
+				"ATK_SP": 65,
+				"DEF_SP": 65,
+				"SPEED": 115
+			},
+			"Basic_Info": {
+				"Species": "Classy Cat Pokemon",
+				"Height": "1.0m",
+				"Weight": "32.0kg",
+				"Abilities": "Limber, Technician, Unnerve (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "052",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "054",
+			"Name": "Psyduck",
+			"Types": "Water",
+			"Favorite": 0,
+			"Photo": "Psyduck.gif",
+			"Description": "Always tormented by headaches. It uses psychic power, but it is not known if it intends to do so.",
+			"Stadistics": {
+				"HP": 50,
+				"ATK": 52,
+				"DEF": 48,
+				"ATK_SP": 65,
+				"DEF_SP": 50,
+				"SPEED": 55
+			},
+			"Basic_Info": {
+				"Species": "Duck Pokemon",
+				"Height": "0.8m",
+				"Weight": "19.6kg",
+				"Abilities": "Damp, Cloud Nine, Swift Swim (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "055",
+				"How_Progress": "Level 33"
+			}
+		},{
+			"id": "055",
+			"Name": "Golduck",
+			"Types": "Water",
+			"Favorite": 0,
+			"Photo": "Golduck.gif",
+			"Description": "A Golduck is an adept swimmer. It sometimes joins competitive swimmers in training. It uses psychic powers when its forehead shimmers with light.",
+			"Stadistics": {
+				"HP": 80,
+				"ATK": 82,
+				"DEF": 78,
+				"ATK_SP": 95,
+				"DEF_SP": 80,
+				"SPEED": 85
+			},
+			"Basic_Info": {
+				"Species": "Duck Pokemon",
+				"Height": "1.7mm",
+				"Weight": "76.6kg",
+				"Abilities": "Damp, Cloud Nine, Swift Swim (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "054",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "056",
+			"Name": "Mankey",
+			"Types": "Fighting",
+			"Favorite": 0,
+			"Photo": "Mankey.gif",
+			"Description": "An agile Pokemon that lives in trees. It angers easily and will not hesitate to attack anything.",
+			"Stadistics": {
+				"HP": 40,
+				"ATK": 80,
+				"DEF": 35,
+				"ATK_SP": 35,
+				"DEF_SP": 45,
+				"SPEED": 70
+			},
+			"Basic_Info": {
+				"Species": "Pig Monkey Pokemon",
+				"Height": "0.5m",
+				"Weight": "28.0kg",
+				"Abilities": "Vital Spirit, Anger Point, Defiant (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "057",
+				"How_Progress": "Level 28"
+			}
+		},{
+			"id": "057",
+			"Name": "Primeape",
+			"Types": "Fighting",
+			"Favorite": 0,
+			"Photo": "Primeape.gif",
+			"Description": "Always furious and tenacious to boot. It will not abandon chasing its quarry until it catches up.",
+			"Stadistics": {
+				"HP": 65,
+				"ATK": 105,
+				"DEF": 60,
+				"ATK_SP": 60,
+				"DEF_SP": 70,
+				"SPEED": 95
+			},
+			"Basic_Info": {
+				"Species": "Pig Monkey Pokemon",
+				"Height": "1.0m",
+				"Weight": "32.0kg",
+				"Abilities": "Vital Spirit, Anger Point, Defiant (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "056",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "058",
+			"Name": "Growlithe",
+			"Types": "Fire",
+			"Favorite": 0,
+			"Photo": "Growlithe.gif",
+			"Description": "A Pokemon with a friendly nature. However, it will bark fiercely at anything invading its territory.",
+			"Stadistics": {
+				"HP": 55,
+				"ATK": 70,
+				"DEF": 45,
+				"ATK_SP": 70,
+				"DEF_SP": 50,
+				"SPEED": 60
+			},
+			"Basic_Info": {
+				"Species": "Puppy Pokemon",
+				"Height": "0.7m",
+				"Weight": "19.0kg",
+				"Abilities": "Intimidate, Flash Fire, Justified (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "059",
+				"How_Progress": "Use Fire Stone"
+			}
+		},{
+			"id": "059",
+			"Name": "Arcanine",
+			"Types": "Fire",
+			"Favorite": 0,
+			"Photo": "Arcanine.gif",
+			"Description": "A legendary Pokemon in China. Many people are charmed by its grace and beauty while running.",
+			"Stadistics": {
+				"HP": 90,
+				"ATK": 110,
+				"DEF": 80,
+				"ATK_SP": 100,
+				"DEF_SP": 80,
+				"SPEED": 95
+			},
+			"Basic_Info": {
+				"Species": "Legendary Pokemon",
+				"Height": "1.9m",
+				"Weight": "155.0kg",
+				"Abilities": "Intimidate, Flash Fire, Justified (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "058",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "060",
+			"Name": "Poliwag",
+			"Types": "Water",
+			"Favorite": 0,
+			"Photo": "Poliwag.gif",
+			"Description": "Because it is inept at walking on its newly grown legs, it always swims around in water.",
+			"Stadistics": {
+				"HP": 40,
+				"ATK": 50,
+				"DEF": 40,
+				"ATK_SP": 40,
+				"DEF_SP": 40,
+				"SPEED": 90
+			},
+			"Basic_Info": {
+				"Species": "Tadpole Pokemon",
+				"Height": "0.6m",
+				"Weight": "12.4kg",
+				"Abilities": "Water Absorb, Damp, Swift Swim (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "061,062",
+				"How_Progress": "Level 25,Use Water Stone"
+			}
+		},{
+			"id": "061",
+			"Name": "Poliwhirl",
+			"Types": "Water",
+			"Favorite": 0,
+			"Photo": "Poliwhirl.gif",
+			"Description": "Capable of living in or out of water. When out of water, it sweats to keep its body slimy.",
+			"Stadistics": {
+				"HP": 65,
+				"ATK": 65,
+				"DEF": 65,
+				"ATK_SP": 50,
+				"DEF_SP": 50,
+				"SPEED": 90
+			},
+			"Basic_Info": {
+				"Species": "Tadpole Pokemon",
+				"Height": "1.0m",
+				"Weight": "20.0kg",
+				"Abilities": "Water Absorb, Damp, Swift Swim (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "060,062",
+				"How_Progress": "Basic Form,Use Water Stone"
+			}
+		},{
+			"id": "062",
+			"Name": "Poliwrath",
+			"Types": "Water,Fighting",
+			"Favorite": 0,
+			"Photo": "Poliwrath.gif",
+			"Description": "A swimmer adept at both the front crawl and breaststroke. Easily overtakes the best human swimmers.",
+			"Stadistics": {
+				"HP": 90,
+				"ATK": 95,
+				"DEF": 95,
+				"ATK_SP": 70,
+				"DEF_SP": 90,
+				"SPEED": 70
+			},
+			"Basic_Info": {
+				"Species": "Tadpole Pokemon",
+				"Height": "1.3m",
+				"Weight": "54.0kg",
+				"Abilities": "Water Absorb, Damp, Swift Swim (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "060,061",
+				"How_Progress": "Basic Form,Level 25"
+			}
+		},{
+			"id": "063",
+			"Name": "Abra",
+			"Types": "Psychic",
+			"Favorite": 0,
+			"Photo": "Abra.gif",
+			"Description": "A Pokemon that sleeps 18 hours a day. Observation revealed that it uses Teleport to change its location once every hour.",
+			"Stadistics": {
+				"HP": 25,
+				"ATK": 20,
+				"DEF": 15,
+				"ATK_SP": 105,
+				"DEF_SP": 55,
+				"SPEED": 90
+			},
+			"Basic_Info": {
+				"Species": "Psi Pokemon",
+				"Height": "0.9m",
+				"Weight": "19.5kg",
+				"Abilities": "Synchronize, Inner Focus, Mgic Guard (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "064,065",
+				"How_Progress": "Level 16,Trade"
+			}
+		},{
+			"id": "064",
+			"Name": "Kadabra",
+			"Types": "Psychic",
+			"Favorite": 0,
+			"Photo": "Kadabra.gif",
+			"Description": "If it uses its abilities, it emits special alpha waves that cause machines to malfuction.",
+			"Stadistics": {
+				"HP": 40,
+				"ATK": 35,
+				"DEF": 30,
+				"ATK_SP": 120,
+				"DEF_SP": 70,
+				"SPEED": 105
+			},
+			"Basic_Info": {
+				"Species": "Psi Pokemon",
+				"Height": "1.3m",
+				"Weight": "56.5kg",
+				"Abilities": "Synchronize, Inner Focus, Mgic Guard (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "063,065",
+				"How_Progress": "Basic Form,Trade"
+			}
+		},{
+			"id": "065",
+			"Name": "Alakazam",
+			"Types": "Psychic",
+			"Favorite": 0,
+			"Photo": "Alakazam.gif",
+			"Description": "A Pokemon that can memorize anything. It never forgets waht it learns that's why this Pokemon is smart.",
+			"Stadistics": {
+				"HP": 55,
+				"ATK": 50,
+				"DEF": 45,
+				"ATK_SP": 135,
+				"DEF_SP": 95,
+				"SPEED": 120
+			},
+			"Basic_Info": {
+				"Species": "Psi Pokemon",
+				"Height": "1.5m",
+				"Weight": "48.0kg",
+				"Abilities": "Synchronize, Inner Focus, Mgic Guard (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "063,064",
+				"How_Progress": "Basic Form,Level 16"
+			}
+		},{
+			"id": "066",
+			"Name": "Machop",
+			"Types": "Fighting",
+			"Favorite": 0,
+			"Photo": "Machop.gif",
+			"Description": "Always brimming with power, it passes time by lifting boulders. Doing so makes it even stronger.",
+			"Stadistics": {
+				"HP": 70,
+				"ATK": 80,
+				"DEF": 50,
+				"ATK_SP": 35,
+				"DEF_SP": 35,
+				"SPEED": 35
+			},
+			"Basic_Info": {
+				"Species": "Superpower Pokemon",
+				"Height": "0.8m",
+				"Weight": "19.5kg",
+				"Abilities": "Guts, No Guard, Steadfast (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "067,068",
+				"How_Progress": "Level 28,Trade"
+			}
+		},{
+			"id": "067",
+			"Name": "Machoke",
+			"Types": "Fighting",
+			"Favorite": 0,
+			"Photo": "Machoke.gif",
+			"Description": "A belt is worn by a Machoke to keep its overwhelming power under control. Because it is so dangerous, no one has ever removed the belt.",
+			"Stadistics": {
+				"HP": 80,
+				"ATK": 100,
+				"DEF": 70,
+				"ATK_SP": 50,
+				"DEF_SP": 60,
+				"SPEED": 45
+			},
+			"Basic_Info": {
+				"Species": "Superpower Pokemon",
+				"Height": "1.5m",
+				"Weight": "70.5kg",
+				"Abilities": "Guts, No Guard, Steadfast (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "066,068",
+				"How_Progress": "Basic Form,Trade"
+			}
+		},{
+			"id": "068",
+			"Name": "Machamp",
+			"Types": "Fighting",
+			"Favorite": 0,
+			"Photo": "Machamp.gif",
+			"Description": "It can knock a train flying with a punch. However, it is terrible at delicate work using its fingers.",
+			"Stadistics": {
+				"HP": 90,
+				"ATK": 130,
+				"DEF": 80,
+				"ATK_SP": 65,
+				"DEF_SP": 85,
+				"SPEED": 55
+			},
+			"Basic_Info": {
+				"Species": "Superpower Pokemon",
+				"Height": "1.6m",
+				"Weight": "130.0kg",
+				"Abilities": "Guts, No Guard, Steadfast (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "066,067",
+				"How_Progress": "Basic Form,Level 28"
+			}
+		},{
+			"id": "069",
+			"Name": "Bellsprout",
+			"Types": "Grass,Poison",
+			"Favorite": 0,
+			"Photo": "Bellsprout.gif",
+			"Description": "A Bellsprout's thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, it leajs a fluid that melts even iron.",
+			"Stadistics": {
+				"HP": 50,
+				"ATK": 75,
+				"DEF": 35,
+				"ATK_SP": 70,
+				"DEF_SP": 30,
+				"SPEED": 40
+			},
+			"Basic_Info": {
+				"Species": "Flower Pokemon",
+				"Height": "0.7m",
+				"Weight": "4.0kg",
+				"Abilities": "Chlorophyll, Gluttony (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "070,071",
+				"How_Progress": "Level 21,Use Leaf Stone"
+			}
+		},{
+			"id": "070",
+			"Name": "Weepinbell",
+			"Types": "Grass,Poison",
+			"Favorite": 0,
+			"Photo": "Weepinbell.gif",
+			"Description": "A Pokemon that appears to be a plant. It captures unwary prey by dousing then with a toxic powder.",
+			"Stadistics": {
+				"HP": 65,
+				"ATK": 90,
+				"DEF": 50,
+				"ATK_SP": 85,
+				"DEF_SP": 45,
+				"SPEED": 55
+			},
+			"Basic_Info": {
+				"Species": "Flycatcher Pokemon",
+				"Height": "1.0m",
+				"Weight": "6.4kg",
+				"Abilities": "Chlorophyll, Gluttony (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "069,071",
+				"How_Progress": "Basic Form,Use Leaf Stone"
+			}
+		},{
+			"id": "071",
+			"Name": "Victreebel",
+			"Types": "Grass,Poison",
+			"Favorite": 0,
+			"Photo": "Victreebel.gif",
+			"Description": "Acid that has dissolved many prey becomes sweeter, making it even more effective at attracting prey.",
+			"Stadistics": {
+				"HP": 80,
+				"ATK": 105,
+				"DEF": 65,
+				"ATK_SP": 100,
+				"DEF_SP": 70,
+				"SPEED": 70
+			},
+			"Basic_Info": {
+				"Species": "Flycatcher Pokemon",
+				"Height": "1.7m",
+				"Weight": "15.5kg",
+				"Abilities": "Chlorophyll, Gluttony (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "069,070",
+				"How_Progress": "Basic Form,Level 21"
+			}
+		},{
+			"id": "072",
+			"Name": "Tentacool",
+			"Types": "Water,Poison",
+			"Favorite": 0,
+			"Photo": "Tentacool.gif",
+			"Description": "As it floats along on the waves, it uses its toxic feelers to stab anything it touches.",
+			"Stadistics": {
+				"HP": 40,
+				"ATK": 40,
+				"DEF": 35,
+				"ATK_SP": 50,
+				"DEF_SP": 100,
+				"SPEED": 70
+			},
+			"Basic_Info": {
+				"Species": "Jellyfish Pokemon",
+				"Height": "0.9m",
+				"Weight": "45.5kg",
+				"Abilities": "Clear Body, Liquid Ooze, Rain Dish (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "073",
+				"How_Progress": "Level 30"
+			}
+		},{
+			"id": "073",
+			"Name": "Tentacruel",
+			"Types": "Water,Poison",
+			"Favorite": 0,
+			"Photo": "Tentacruel.gif",
+			"Description": "In battle, it extends all 80 of its tentacles to entrap its opponent inside a poisonous net.",
+			"Stadistics": {
+				"HP": 80,
+				"ATK": 70,
+				"DEF": 65,
+				"ATK_SP": 80,
+				"DEF_SP": 120,
+				"SPEED": 100
+			},
+			"Basic_Info": {
+				"Species": "Jellyfish Pokemon",
+				"Height": "1.6m",
+				"Weight": "55.0kg",
+				"Abilities": "Clear Body, Liquid Ooze, Rain Dish (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "072",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "074",
+			"Name": "Geodude",
+			"Types": "Rock,Ground",
+			"Favorite": 0,
+			"Photo": "Geodude.gif",
+			"Description": "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily.",
+			"Stadistics": {
+				"HP": 40,
+				"ATK": 80,
+				"DEF": 100,
+				"ATK_SP": 30,
+				"DEF_SP": 30,
+				"SPEED": 20
+			},
+			"Basic_Info": {
+				"Species": "Rock Pokemon",
+				"Height": "0.4m",
+				"Weight": "20.0kg",
+				"Abilities": "Rock Head, Sturdy, Sand Veil (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "075,076",
+				"How_Progress": "Level 25,Trade"
+			}
+		},{
+			"id": "075",
+			"Name": "Graveler",
+			"Types": "Rock,Ground",
+			"Favorite": 0,
+			"Photo": "Graveler.gif",
+			"Description": "A slow walker, it rolls to move. It pays no attention to any object that happens to be in its path.",
+			"Stadistics": {
+				"HP": 55,
+				"ATK": 95,
+				"DEF": 115,
+				"ATK_SP": 45,
+				"DEF_SP": 45,
+				"SPEED": 35
+			},
+			"Basic_Info": {
+				"Species": "Rock Pokemon",
+				"Height": "1.0m",
+				"Weight": "105.0kg",
+				"Abilities": "Rock Head, Sturdy, Sand Veil (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "074,076",
+				"How_Progress": "Basic Form,Trade"
+			}
+		},{
+			"id": "076",
+			"Name": "Golem",
+			"Types": "Rock,Ground",
+			"Favorite": 0,
+			"Photo": "Golem.gif",
+			"Description": "Even dynamite can't harm its hard, boulder-like body. It sheds its hide just once a year.",
+			"Stadistics": {
+				"HP": 80,
+				"ATK": 120,
+				"DEF": 130,
+				"ATK_SP": 55,
+				"DEF_SP": 65,
+				"SPEED": 45
+			},
+			"Basic_Info": {
+				"Species": "Megaton Pokemon",
+				"Height": "1.4m",
+				"Weight": "300.0kg",
+				"Abilities": "Rock Head, Sturdy, Sand Veil (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "074,075",
+				"How_Progress": "Basic Form,Level 25"
+			}
+		},{
+			"id": "077",
+			"Name": "Ponyta",
+			"Types": "Fire",
+			"Favorite": 0,
+			"Photo": "Ponyta.gif",
+			"Description": "A Ponyta is a very wak at birth. It can barely stand up. Its legs become stronger as it stumbles and falls while trying to keep up with its parent.",
+			"Stadistics": {
+				"HP": 50,
+				"ATK": 85,
+				"DEF": 55,
+				"ATK_SP": 65,
+				"DEF_SP": 65,
+				"SPEED": 90
+			},
+			"Basic_Info": {
+				"Species": "Fire Hourse Pokemon",
+				"Height": "1.0m",
+				"Weight": "30.0kg",
+				"Abilities": "Run Away, Flash Fire, Flame Body (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "078",
+				"How_Progress": "Level 40"
+			}
+		},{
+			"id": "078",
+			"Name": "Rapidash",
+			"Types": "Fire",
+			"Favorite": 0,
+			"Photo": "Rapidash.gif",
+			"Description": "At full gallop, its four hooves barely touch the ground because it moves so incredibly fast.",
+			"Stadistics": {
+				"HP": 65,
+				"ATK": 100,
+				"DEF": 70,
+				"ATK_SP": 80,
+				"DEF_SP": 80,
+				"SPEED": 105
+			},
+			"Basic_Info": {
+				"Species": "Fire Hourse Pokemon",
+				"Height": "1.7m",
+				"Weight": "95.0kg",
+				"Abilities": "Run Away, Flash Fire, Flame Body (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "077",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "079",
+			"Name": "Slowpoke",
+			"Types": "Water,Psychic",
+			"Favorite": 0,
+			"Photo": "Slowpoke.gif",
+			"Description": "A sweet sap leaks from its tail's tip. Although not nutritious, the tail is pleasant to chew on.",
+			"Stadistics": {
+				"HP": 90,
+				"ATK": 65,
+				"DEF": 65,
+				"ATK_SP": 40,
+				"DEF_SP": 40,
+				"SPEED": 15
+			},
+			"Basic_Info": {
+				"Species": "Dopey Pokemon",
+				"Height": "1.2m",
+				"Weight": "36.0kg",
+				"Abilities": "Oblivious, Own Tempo, Regenerator (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "080",
+				"How_Progress": "Level 37"
+			}
+		},{
+			"id": "080",
+			"Name": "Slowbro",
+			"Types": "Water,Psychic",
+			"Favorite": 0,
+			"Photo": "Slowbro.gif",
+			"Description": "An attached Shellder won't let go because of the tasty flavor that oozes out of its tail.",
+			"Stadistics": {
+				"HP": 95,
+				"ATK": 75,
+				"DEF": 110,
+				"ATK_SP": 100,
+				"DEF_SP": 80,
+				"SPEED": 30
+			},
+			"Basic_Info": {
+				"Species": "Hermit Crab Pokemon",
+				"Height": "1.6m",
+				"Weight": "78.5kg",
+				"Abilities": "Oblivious, Own Tempo, Regenerator (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "079",
+				"How_Progress": "Basic Form"
 			}
 		}
 	]

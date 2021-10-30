@@ -6,7 +6,9 @@ const pokeId = document.querySelector('#id');
 const pokeImg = document.querySelector('#img');
 
 const getBasicInfo = async () => {
-    let randomId = Math.floor(Math.random()*50+1);
+	let res = await fetch('/getAmount');
+	res = await res.json();
+    let randomId = Math.floor(Math.random() * res['Amount'] + 1);
     let pokemon = await fetch(`/getRandom/${randomId}`);
     pokemon = await pokemon.json();
     pokeId.textContent = "#".concat(pokemon['id']);

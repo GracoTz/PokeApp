@@ -1,30 +1,264 @@
 {
     "pokemons": [
         {
-			"id": "",
-			"Name": "",
-			"Types": "",
+			"id": "071",
+			"Name": "Victreebel",
+			"Types": "Grass,Poison",
 			"Favorite": 0,
-			"Photo": ".gif",
-			"Description": "",
+			"Photo": "Victreebel.gif",
+			"Description": "Acid that has dissolved many prey becomes sweeter, making it even more effective at attracting prey.",
 			"Stadistics": {
-				"HP": 0,
-				"ATK": 0,
-				"DEF": 0,
-				"ATK_SP": 0,
-				"DEF_SP": 0,
-				"SPEED": 0
+				"HP": 80,
+				"ATK": 105,
+				"DEF": 65,
+				"ATK_SP": 100,
+				"DEF_SP": 70,
+				"SPEED": 70
 			},
 			"Basic_Info": {
-				"Species": "",
-				"Height": "m",
-				"Weight": "kg",
-				"Abilities": ""
+				"Species": "Flycatcher Pokemon",
+				"Height": "1.7m",
+				"Weight": "15.5kg",
+				"Abilities": "Chlorophyll, Gluttony (Hidden)"
 			},
 			"Evolutions": {
-				"Have_Evolutions": 0,
-				"Evolutions": "",
-				"How_Progress": ""
+				"Have_Evolutions": 1,
+				"Evolutions": "069,070",
+				"How_Progress": "Basic Form,Level 21"
+			}
+		},{
+			"id": "072",
+			"Name": "Tentacool",
+			"Types": "Water,Poison",
+			"Favorite": 0,
+			"Photo": "Tentacool.gif",
+			"Description": "As it floats along on the waves, it uses its toxic feelers to stab anything it touches.",
+			"Stadistics": {
+				"HP": 40,
+				"ATK": 40,
+				"DEF": 35,
+				"ATK_SP": 50,
+				"DEF_SP": 100,
+				"SPEED": 70
+			},
+			"Basic_Info": {
+				"Species": "Jellyfish Pokemon",
+				"Height": "0.9m",
+				"Weight": "45.5kg",
+				"Abilities": "Clear Body, Liquid Ooze, Rain Dish (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "073",
+				"How_Progress": "Level 30"
+			}
+		},{
+			"id": "073",
+			"Name": "Tentacruel",
+			"Types": "Water,Poison",
+			"Favorite": 0,
+			"Photo": "Tentacruel.gif",
+			"Description": "In battle, it extends all 80 of its tentacles to entrap its opponent inside a poisonous net.",
+			"Stadistics": {
+				"HP": 80,
+				"ATK": 70,
+				"DEF": 65,
+				"ATK_SP": 80,
+				"DEF_SP": 120,
+				"SPEED": 100
+			},
+			"Basic_Info": {
+				"Species": "Jellyfish Pokemon",
+				"Height": "1.6m",
+				"Weight": "55.0kg",
+				"Abilities": "Clear Body, Liquid Ooze, Rain Dish (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "072",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "074",
+			"Name": "Geodude",
+			"Types": "Rock,Ground",
+			"Favorite": 0,
+			"Photo": "Geodude.gif",
+			"Description": "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily.",
+			"Stadistics": {
+				"HP": 40,
+				"ATK": 80,
+				"DEF": 100,
+				"ATK_SP": 30,
+				"DEF_SP": 30,
+				"SPEED": 20
+			},
+			"Basic_Info": {
+				"Species": "Rock Pokemon",
+				"Height": "0.4m",
+				"Weight": "20.0kg",
+				"Abilities": "Rock Head, Sturdy, Sand Veil (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "075,076",
+				"How_Progress": "Level 25,Trade"
+			}
+		},{
+			"id": "075",
+			"Name": "Graveler",
+			"Types": "Rock,Ground",
+			"Favorite": 0,
+			"Photo": "Graveler.gif",
+			"Description": "A slow walker, it rolls to move. It pays no attention to any object that happens to be in its path.",
+			"Stadistics": {
+				"HP": 55,
+				"ATK": 95,
+				"DEF": 115,
+				"ATK_SP": 45,
+				"DEF_SP": 45,
+				"SPEED": 35
+			},
+			"Basic_Info": {
+				"Species": "Rock Pokemon",
+				"Height": "1.0m",
+				"Weight": "105.0kg",
+				"Abilities": "Rock Head, Sturdy, Sand Veil (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "074,076",
+				"How_Progress": "Basic Form,Trade"
+			}
+		},{
+			"id": "076",
+			"Name": "Golem",
+			"Types": "Rock,Ground",
+			"Favorite": 0,
+			"Photo": "Golem.gif",
+			"Description": "Even dynamite can't harm its hard, boulder-like body. It sheds its hide just once a year.",
+			"Stadistics": {
+				"HP": 80,
+				"ATK": 120,
+				"DEF": 130,
+				"ATK_SP": 55,
+				"DEF_SP": 65,
+				"SPEED": 45
+			},
+			"Basic_Info": {
+				"Species": "Megaton Pokemon",
+				"Height": "1.4m",
+				"Weight": "300.0kg",
+				"Abilities": "Rock Head, Sturdy, Sand Veil (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "074,075",
+				"How_Progress": "Basic Form,Level 25"
+			}
+		},{
+			"id": "077",
+			"Name": "Ponyta",
+			"Types": "Fire",
+			"Favorite": 0,
+			"Photo": "Ponyta.gif",
+			"Description": "A Ponyta is a very wak at birth. It can barely stand up. Its legs become stronger as it stumbles and falls while trying to keep up with its parent.",
+			"Stadistics": {
+				"HP": 50,
+				"ATK": 85,
+				"DEF": 55,
+				"ATK_SP": 65,
+				"DEF_SP": 65,
+				"SPEED": 90
+			},
+			"Basic_Info": {
+				"Species": "Fire Hourse Pokemon",
+				"Height": "1.0m",
+				"Weight": "30.0kg",
+				"Abilities": "Run Away, Flash Fire, Flame Body (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "078",
+				"How_Progress": "Level 40"
+			}
+		},{
+			"id": "078",
+			"Name": "Rapidash",
+			"Types": "Fire",
+			"Favorite": 0,
+			"Photo": "Rapidash.gif",
+			"Description": "At full gallop, its four hooves barely touch the ground because it moves so incredibly fast.",
+			"Stadistics": {
+				"HP": 65,
+				"ATK": 100,
+				"DEF": 70,
+				"ATK_SP": 80,
+				"DEF_SP": 80,
+				"SPEED": 105
+			},
+			"Basic_Info": {
+				"Species": "Fire Hourse Pokemon",
+				"Height": "1.7m",
+				"Weight": "95.0kg",
+				"Abilities": "Run Away, Flash Fire, Flame Body (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "077",
+				"How_Progress": "Basic Form"
+			}
+		},{
+			"id": "079",
+			"Name": "Slowpoke",
+			"Types": "Water,Psychic",
+			"Favorite": 0,
+			"Photo": "Slowpoke.gif",
+			"Description": "A sweet sap leaks from its tail's tip. Although not nutritious, the tail is pleasant to chew on.",
+			"Stadistics": {
+				"HP": 90,
+				"ATK": 65,
+				"DEF": 65,
+				"ATK_SP": 40,
+				"DEF_SP": 40,
+				"SPEED": 15
+			},
+			"Basic_Info": {
+				"Species": "Dopey Pokemon",
+				"Height": "1.2m",
+				"Weight": "36.0kg",
+				"Abilities": "Oblivious, Own Tempo, Regenerator (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "080",
+				"How_Progress": "Level 37"
+			}
+		},{
+			"id": "080",
+			"Name": "Slowbro",
+			"Types": "Water,Psychic",
+			"Favorite": 0,
+			"Photo": "Slowbro.gif",
+			"Description": "An attached Shellder won't let go because of the tasty flavor that oozes out of its tail.",
+			"Stadistics": {
+				"HP": 95,
+				"ATK": 75,
+				"DEF": 110,
+				"ATK_SP": 100,
+				"DEF_SP": 80,
+				"SPEED": 30
+			},
+			"Basic_Info": {
+				"Species": "Hermit Crab Pokemon",
+				"Height": "1.6m",
+				"Weight": "78.5kg",
+				"Abilities": "Oblivious, Own Tempo, Regenerator (Hidden)"
+			},
+			"Evolutions": {
+				"Have_Evolutions": 1,
+				"Evolutions": "079",
+				"How_Progress": "Basic Form"
 			}
 		}
     ]

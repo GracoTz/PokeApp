@@ -22,6 +22,12 @@ Router.get('/getPokemons', async (req, res) => {
     res.send(pokemons);
 });
 
+Router.get('/getAmount', async (req, res) => {
+    let sql = 'SELECT COUNT(*) FROM pokemons';
+    let amount = await conn.query(sql);
+    res.send({Amount: amount[0]['COUNT(*)']});
+});
+
 // Devolver al pokemon solo con los datos solicitados
 Router.get('/getRandom/:id', async (req, res) => {
     const { id } = req.params;
