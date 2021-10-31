@@ -1,264 +1,524 @@
 {
     "pokemons": [
         {
-			"id": "071",
-			"Name": "Victreebel",
-			"Types": "Grass,Poison",
+			"id": "081",
+			"Name": "",
+			"Types": "",
 			"Favorite": 0,
-			"Photo": "Victreebel.gif",
-			"Description": "Acid that has dissolved many prey becomes sweeter, making it even more effective at attracting prey.",
+			"Photo": ".gif",
+			"Description": "",
 			"Stadistics": {
-				"HP": 80,
-				"ATK": 105,
-				"DEF": 65,
-				"ATK_SP": 100,
-				"DEF_SP": 70,
-				"SPEED": 70
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
 			},
 			"Basic_Info": {
-				"Species": "Flycatcher Pokemon",
-				"Height": "1.7m",
-				"Weight": "15.5kg",
-				"Abilities": "Chlorophyll, Gluttony (Hidden)"
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
 			},
 			"Evolutions": {
-				"Have_Evolutions": 1,
-				"Evolutions": "069,070",
-				"How_Progress": "Basic Form,Level 21"
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
 			}
 		},{
-			"id": "072",
-			"Name": "Tentacool",
-			"Types": "Water,Poison",
+			"id": "082",
+			"Name": "",
+			"Types": "",
 			"Favorite": 0,
-			"Photo": "Tentacool.gif",
-			"Description": "As it floats along on the waves, it uses its toxic feelers to stab anything it touches.",
+			"Photo": ".gif",
+			"Description": "",
 			"Stadistics": {
-				"HP": 40,
-				"ATK": 40,
-				"DEF": 35,
-				"ATK_SP": 50,
-				"DEF_SP": 100,
-				"SPEED": 70
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
 			},
 			"Basic_Info": {
-				"Species": "Jellyfish Pokemon",
-				"Height": "0.9m",
-				"Weight": "45.5kg",
-				"Abilities": "Clear Body, Liquid Ooze, Rain Dish (Hidden)"
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
 			},
 			"Evolutions": {
-				"Have_Evolutions": 1,
-				"Evolutions": "073",
-				"How_Progress": "Level 30"
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
 			}
 		},{
-			"id": "073",
-			"Name": "Tentacruel",
-			"Types": "Water,Poison",
+			"id": "083",
+			"Name": "",
+			"Types": "",
 			"Favorite": 0,
-			"Photo": "Tentacruel.gif",
-			"Description": "In battle, it extends all 80 of its tentacles to entrap its opponent inside a poisonous net.",
+			"Photo": ".gif",
+			"Description": "",
 			"Stadistics": {
-				"HP": 80,
-				"ATK": 70,
-				"DEF": 65,
-				"ATK_SP": 80,
-				"DEF_SP": 120,
-				"SPEED": 100
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
 			},
 			"Basic_Info": {
-				"Species": "Jellyfish Pokemon",
-				"Height": "1.6m",
-				"Weight": "55.0kg",
-				"Abilities": "Clear Body, Liquid Ooze, Rain Dish (Hidden)"
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
 			},
 			"Evolutions": {
-				"Have_Evolutions": 1,
-				"Evolutions": "072",
-				"How_Progress": "Basic Form"
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
 			}
 		},{
-			"id": "074",
-			"Name": "Geodude",
-			"Types": "Rock,Ground",
+			"id": "084",
+			"Name": "",
+			"Types": "",
 			"Favorite": 0,
-			"Photo": "Geodude.gif",
-			"Description": "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily.",
+			"Photo": ".gif",
+			"Description": "",
 			"Stadistics": {
-				"HP": 40,
-				"ATK": 80,
-				"DEF": 100,
-				"ATK_SP": 30,
-				"DEF_SP": 30,
-				"SPEED": 20
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
 			},
 			"Basic_Info": {
-				"Species": "Rock Pokemon",
-				"Height": "0.4m",
-				"Weight": "20.0kg",
-				"Abilities": "Rock Head, Sturdy, Sand Veil (Hidden)"
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
 			},
 			"Evolutions": {
-				"Have_Evolutions": 1,
-				"Evolutions": "075,076",
-				"How_Progress": "Level 25,Trade"
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
 			}
 		},{
-			"id": "075",
-			"Name": "Graveler",
-			"Types": "Rock,Ground",
+			"id": "085",
+			"Name": "",
+			"Types": "",
 			"Favorite": 0,
-			"Photo": "Graveler.gif",
-			"Description": "A slow walker, it rolls to move. It pays no attention to any object that happens to be in its path.",
+			"Photo": ".gif",
+			"Description": "",
 			"Stadistics": {
-				"HP": 55,
-				"ATK": 95,
-				"DEF": 115,
-				"ATK_SP": 45,
-				"DEF_SP": 45,
-				"SPEED": 35
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
 			},
 			"Basic_Info": {
-				"Species": "Rock Pokemon",
-				"Height": "1.0m",
-				"Weight": "105.0kg",
-				"Abilities": "Rock Head, Sturdy, Sand Veil (Hidden)"
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
 			},
 			"Evolutions": {
-				"Have_Evolutions": 1,
-				"Evolutions": "074,076",
-				"How_Progress": "Basic Form,Trade"
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
 			}
 		},{
-			"id": "076",
-			"Name": "Golem",
-			"Types": "Rock,Ground",
+			"id": "086",
+			"Name": "",
+			"Types": "",
 			"Favorite": 0,
-			"Photo": "Golem.gif",
-			"Description": "Even dynamite can't harm its hard, boulder-like body. It sheds its hide just once a year.",
+			"Photo": ".gif",
+			"Description": "",
 			"Stadistics": {
-				"HP": 80,
-				"ATK": 120,
-				"DEF": 130,
-				"ATK_SP": 55,
-				"DEF_SP": 65,
-				"SPEED": 45
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
 			},
 			"Basic_Info": {
-				"Species": "Megaton Pokemon",
-				"Height": "1.4m",
-				"Weight": "300.0kg",
-				"Abilities": "Rock Head, Sturdy, Sand Veil (Hidden)"
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
 			},
 			"Evolutions": {
-				"Have_Evolutions": 1,
-				"Evolutions": "074,075",
-				"How_Progress": "Basic Form,Level 25"
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
 			}
 		},{
-			"id": "077",
-			"Name": "Ponyta",
-			"Types": "Fire",
+			"id": "087",
+			"Name": "",
+			"Types": "",
 			"Favorite": 0,
-			"Photo": "Ponyta.gif",
-			"Description": "A Ponyta is a very wak at birth. It can barely stand up. Its legs become stronger as it stumbles and falls while trying to keep up with its parent.",
+			"Photo": ".gif",
+			"Description": "",
 			"Stadistics": {
-				"HP": 50,
-				"ATK": 85,
-				"DEF": 55,
-				"ATK_SP": 65,
-				"DEF_SP": 65,
-				"SPEED": 90
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
 			},
 			"Basic_Info": {
-				"Species": "Fire Hourse Pokemon",
-				"Height": "1.0m",
-				"Weight": "30.0kg",
-				"Abilities": "Run Away, Flash Fire, Flame Body (Hidden)"
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
 			},
 			"Evolutions": {
-				"Have_Evolutions": 1,
-				"Evolutions": "078",
-				"How_Progress": "Level 40"
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
 			}
 		},{
-			"id": "078",
-			"Name": "Rapidash",
-			"Types": "Fire",
+			"id": "088",
+			"Name": "",
+			"Types": "",
 			"Favorite": 0,
-			"Photo": "Rapidash.gif",
-			"Description": "At full gallop, its four hooves barely touch the ground because it moves so incredibly fast.",
+			"Photo": ".gif",
+			"Description": "",
 			"Stadistics": {
-				"HP": 65,
-				"ATK": 100,
-				"DEF": 70,
-				"ATK_SP": 80,
-				"DEF_SP": 80,
-				"SPEED": 105
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
 			},
 			"Basic_Info": {
-				"Species": "Fire Hourse Pokemon",
-				"Height": "1.7m",
-				"Weight": "95.0kg",
-				"Abilities": "Run Away, Flash Fire, Flame Body (Hidden)"
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
 			},
 			"Evolutions": {
-				"Have_Evolutions": 1,
-				"Evolutions": "077",
-				"How_Progress": "Basic Form"
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
 			}
 		},{
-			"id": "079",
-			"Name": "Slowpoke",
-			"Types": "Water,Psychic",
+			"id": "089",
+			"Name": "",
+			"Types": "",
 			"Favorite": 0,
-			"Photo": "Slowpoke.gif",
-			"Description": "A sweet sap leaks from its tail's tip. Although not nutritious, the tail is pleasant to chew on.",
+			"Photo": ".gif",
+			"Description": "",
 			"Stadistics": {
-				"HP": 90,
-				"ATK": 65,
-				"DEF": 65,
-				"ATK_SP": 40,
-				"DEF_SP": 40,
-				"SPEED": 15
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
 			},
 			"Basic_Info": {
-				"Species": "Dopey Pokemon",
-				"Height": "1.2m",
-				"Weight": "36.0kg",
-				"Abilities": "Oblivious, Own Tempo, Regenerator (Hidden)"
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
 			},
 			"Evolutions": {
-				"Have_Evolutions": 1,
-				"Evolutions": "080",
-				"How_Progress": "Level 37"
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
 			}
 		},{
-			"id": "080",
-			"Name": "Slowbro",
-			"Types": "Water,Psychic",
+			"id": "090",
+			"Name": "",
+			"Types": "",
 			"Favorite": 0,
-			"Photo": "Slowbro.gif",
-			"Description": "An attached Shellder won't let go because of the tasty flavor that oozes out of its tail.",
+			"Photo": ".gif",
+			"Description": "",
 			"Stadistics": {
-				"HP": 95,
-				"ATK": 75,
-				"DEF": 110,
-				"ATK_SP": 100,
-				"DEF_SP": 80,
-				"SPEED": 30
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
 			},
 			"Basic_Info": {
-				"Species": "Hermit Crab Pokemon",
-				"Height": "1.6m",
-				"Weight": "78.5kg",
-				"Abilities": "Oblivious, Own Tempo, Regenerator (Hidden)"
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
 			},
 			"Evolutions": {
-				"Have_Evolutions": 1,
-				"Evolutions": "079",
-				"How_Progress": "Basic Form"
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
+			}
+		},{
+			"id": "091",
+			"Name": "",
+			"Types": "",
+			"Favorite": 0,
+			"Photo": ".gif",
+			"Description": "",
+			"Stadistics": {
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
+			},
+			"Basic_Info": {
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
+			},
+			"Evolutions": {
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
+			}
+		},{
+			"id": "092",
+			"Name": "",
+			"Types": "",
+			"Favorite": 0,
+			"Photo": ".gif",
+			"Description": "",
+			"Stadistics": {
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
+			},
+			"Basic_Info": {
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
+			},
+			"Evolutions": {
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
+			}
+		},{
+			"id": "093",
+			"Name": "",
+			"Types": "",
+			"Favorite": 0,
+			"Photo": ".gif",
+			"Description": "",
+			"Stadistics": {
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
+			},
+			"Basic_Info": {
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
+			},
+			"Evolutions": {
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
+			}
+		},{
+			"id": "094",
+			"Name": "",
+			"Types": "",
+			"Favorite": 0,
+			"Photo": ".gif",
+			"Description": "",
+			"Stadistics": {
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
+			},
+			"Basic_Info": {
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
+			},
+			"Evolutions": {
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
+			}
+		},{
+			"id": "095",
+			"Name": "",
+			"Types": "",
+			"Favorite": 0,
+			"Photo": ".gif",
+			"Description": "",
+			"Stadistics": {
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
+			},
+			"Basic_Info": {
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
+			},
+			"Evolutions": {
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
+			}
+		},{
+			"id": "096",
+			"Name": "",
+			"Types": "",
+			"Favorite": 0,
+			"Photo": ".gif",
+			"Description": "",
+			"Stadistics": {
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
+			},
+			"Basic_Info": {
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
+			},
+			"Evolutions": {
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
+			}
+		},{
+			"id": "097",
+			"Name": "",
+			"Types": "",
+			"Favorite": 0,
+			"Photo": ".gif",
+			"Description": "",
+			"Stadistics": {
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
+			},
+			"Basic_Info": {
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
+			},
+			"Evolutions": {
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
+			}
+		},{
+			"id": "098",
+			"Name": "",
+			"Types": "",
+			"Favorite": 0,
+			"Photo": ".gif",
+			"Description": "",
+			"Stadistics": {
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
+			},
+			"Basic_Info": {
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
+			},
+			"Evolutions": {
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
+			}
+		},{
+			"id": "099",
+			"Name": "",
+			"Types": "",
+			"Favorite": 0,
+			"Photo": ".gif",
+			"Description": "",
+			"Stadistics": {
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
+			},
+			"Basic_Info": {
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
+			},
+			"Evolutions": {
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
+			}
+		},{
+			"id": "100",
+			"Name": "",
+			"Types": "",
+			"Favorite": 0,
+			"Photo": ".gif",
+			"Description": "",
+			"Stadistics": {
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
+			},
+			"Basic_Info": {
+				"Species": " Pokemon",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
+			},
+			"Evolutions": {
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
 			}
 		}
     ]

@@ -1,0 +1,31 @@
+{
+	"pokemons" : [
+		{
+			"id": "",
+			"Name": "",
+			"Types": "",
+			"Favorite": 0,
+			"Photo": ".gif",
+			"Description": "",
+			"Stadistics": {
+				"HP": 0,
+				"ATK": 0,
+				"DEF": 0,
+				"ATK_SP": 0,
+				"DEF_SP": 0,
+				"SPEED": 0
+			},
+			"Basic_Info": {
+				"Species": "",
+				"Height": "m",
+				"Weight": "kg",
+				"Abilities": ""
+			},
+			"Evolutions": {
+				"Have_Evolutions": 0,
+				"Evolutions": "",
+				"How_Progress": ""
+			}
+		}
+	]
+}
